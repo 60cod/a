@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+
+/*
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록
+   #ff8800 연한 주황
+   #ff6100ff 진한 주황 */
+
+
+
+/*
+------------- 중앙 -------------
+*/
+.center {
+   width: 1300px;
+   margin: 0px auto 100px;
+   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
+   min-height: calc(100% - 356px);
+}
+
+.mycart_wrap {
+	width: 1050px;
+	border-radius : 10px ;
+	border: 1px solid #cacaca;
+	box-shadow: rgb(18 18 18 / 6%) 0px 0px 5px 1px;
+	margin: 50px auto 0;
+	position: relative;
+}
+
+.mycart1{
+	height: 143px;
+    margin: 30px 80px;
+}
+
+/*
+.icon_img {
+	display: inline-block;
+    vertical-align: top;
+    margin-top: 53px;
+    background: url("../../images/goowon1.png") no-repeat 0/80px;
+    width: 80px;
+    height: 80px;
+}
+*/
+
+.cart_info {
+	text-align: center;
+}
+
+.cart_info span {
+	display: inline-block;
+    vertical-align: top;
+    margin: 35px 0px 10px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.cart_name {
+	font-family: 'SUIT-Medium';
+    font-size: 24px;
+    height: 36px;
+    display: inline-block;
+    border-bottom: 3px solid #6cafd9;
+}
+
+.cart_user {
+	font-family: 'SUIT-Medium';
+    font-size: 16px;
+}
+
+.close_img{
+	display: inline-block;
+    vertical-align: top;
+    background: url(../../images/x-box.png) no-repeat 0/30px;
+    width: 30px;
+    height: 30px;
+	position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.mycart2{
+	width: 960px;
+    margin: 0px auto;
+}
+
+.inner_box{
+	border: 1px solid #cacaca;
+    box-shadow: rgb(18 18 18 / 6%) 0px 0px 5px 1px;
+    border-radius: 5px;
+    width: 900px;
+    margin: 30px;
+}
+
+.mkname{
+	font-size: 17px;
+    font-family: 'SUIT-SemiBold';
+    margin: 20px 0 0 30px;
+}
+
+.mkname span {
+    line-height: 25px;
+    display: inline-block;
+}
+
+.item_box{
+	margin: 25px 38px 20px;
+}
+
+.n_item{
+	display: inline-block;
+    vertical-align: top;
+    /* border: 1px solid #cacaca; */
+    border-radius: 40px;
+    width: 150px;
+    height: 130px;
+    margin: 5px 6px;
+    background-color: #fafafa;
+}
+
+.ci_img{
+	margin: 15px 0 8px;
+    text-align: center;
+}
+
+.ci_img img {
+	width: 50px;
+	height: 50px;
+}
+
+.ci_name{
+	width:100%;
+	font-family: 'SUIT-Medium';
+	font-size: 15px;
+	padding-left: 30px;
+}
+
+.ci_name span {
+	color: #a7a7a7;
+    font: status-bar;
+}
+
+.ci_price{
+	width: 100%;
+    font-family: 'SUIT-Medium';
+    color: #afafaf;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.ci_shop{
+	width:100%;
+	font-family: 'SUIT-Medium';
+	font-size: 16px;
+}
+
+.eprice {
+	height: 51px;
+    border-top: 1px solid #ededed;
+    margin: 0 34px;
+    font-size: 19px;
+    line-height: 45px;
+    /* text-indent: 12px; */
+    color: #474747;
+    text-align: right;
+    padding-right: 36px;
+}
+
+.mycart3{
+	margin: 40px 0 32px;
+    text-align: center;
+}
+
+.tprice{
+	height: 94px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 85px;
+}
+
+.tprice p {
+	font-size: 22px;
+    margin: 15px 0;
+    font-family: 'SUIT-Medium';
+}
+
+.tprice img {
+	width: 35px;
+    height: 35px;
+    margin-right: 7px;
+}
+
+.tprice span {
+	font-size: 25px;
+    color: #7e7e7e;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+.btn_div{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.save_btn{
+	    display: inline-block;
+    vertical-align: top;
+    width: 136px;
+    height: 46px;
+    line-height: 46px;
+    color: white;
+    background-color: #8fc4df;
+    font-family: 'SUIT-Medium';
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.save_btn:hover {
+	background-color: #82b4cd;
+}
+
+
+/* 
+------------- 내용물 주변 마진 -------------
+	(상단 버튼이 box에 관계해서 위치함)
+*/
+.box {
+	border-top: 2px solid #808080;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 36px;
+    position: relative;
+}

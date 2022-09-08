@@ -1,0 +1,329 @@
+@charset "UTF-8";
+
+/** 
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록
+   #ff8800 연한 주황
+   #ff6100ff 진한 주황 */
+
+
+
+table {
+	width : 980px;
+}
+
+th{
+	height: 55px;
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: -internal-center;
+    font-size: 16px;
+    font-family: 'SUIT-SemiBold';
+    color: #4d4848;
+    border-bottom: 1px solid #dfdfdf;
+    font-weight: normal;
+    
+}
+
+
+td {
+   display: table-cell;
+   vertical-align: inherit;
+   height : 50px;
+   text-align: center;
+   font-size: 15px;
+}
+
+
+
+.center {
+   display: block;
+   width: 1300px;
+   min-height: calc(100% - 256px);
+   margin: 0px auto;
+}
+
+
+.category_wrap {
+	height: 100%;
+    width: 183px;
+    padding-top: 2px;
+    display: inline-block;
+    margin-top: 138px;
+}
+
+.menu_name, .category1, .category2 {
+	display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    height: 41px;
+    border: 1px solid #A9A9A9;
+    line-height: 41px;
+    cursor: pointer;
+    margin-bottom: -1px;
+}
+
+.menu_name {
+	background-color: hsl(203deg 59% 92%);
+    font-family: 'SUIT-SemiBold';
+    font-size: 16px;
+    text-indent: 15px;
+}
+
+.category1, .category2 {
+    border-right: 1px solid #A9A9A9;
+    font-family: 'SUIT-Medium';
+    font-size: 15px;
+    text-indent: 20px;
+}
+
+.menu_name:hover {
+	background-color: hsl(203deg 59% 88%);
+}
+
+.category1.on.category1, .category2.on.category2 {
+	background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.category1:hover, .category2:hover {
+	background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.right {
+   display: inline-block;
+   vertical-align: top;
+   width : 1090px;
+   margin-bottom:100px;
+   position: relative;
+}
+
+.main_title {
+   display: inline-block;
+    vertical-align: top;
+    width: 174px;
+    height: 60px;
+    line-height: 78px;
+    font-family: 'SUIT-SemiBold';
+    font-size: 20px;
+    border-bottom: 4px solid #6cafd9;
+    padding-left: 10px;
+    margin: 15px 0 60px 57px;
+}
+
+.main_title_txt {
+   display: inline-block;
+   vertical-align: top;
+   width : 1000px;
+   height : 20px;
+   font-family :'SUIT-Light';
+   font-size : 13px;
+   line-height : 20px;
+   margin-left : 80px;
+}
+
+.btn_wrap {
+   display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    text-align: right;
+    width: 982px;
+    position: absolute;
+    top: -41px;
+    right: 49px;
+}
+
+.ed_btn {
+   display:inline-block;
+   vertical-align:top;
+   font-family:'SUIT-SemiBold';
+   font-size : 16px;
+   line-height : 32px;
+   width : 56px;
+   text-align : center;
+   color : white;
+   border-radius : 5px;
+   background-color : #8fc4df;
+   cursor: pointer;
+   margin-right: 10px;
+   text-align: center;
+}
+
+.ed_btn:hover {
+	background-color: #82b4cd;
+}
+
+.box{
+    width: 980px;
+    background-color: white;
+    border: 1px solid #c2c2c2;
+    margin: 0px 55px 20px;
+}
+
+.price_box{
+   height: 40px;
+   text-align: center;
+   margin: 0px 0px 10px 0px; 
+}
+
+.price{
+   display: inline-block;
+   vertical-align:top;
+   width: 450px;
+   height: 40px;
+   background-color: #6cafd9;
+   font-family:'SUIT-SemiBold';
+   font-size : 16px;
+   line-height : 40px;
+   border-radius : 5px;
+}
+
+.total_price{
+   display : inline-block;
+   vertical-align:top;
+   width:250px;
+   height: 30px;
+   margin : 5px 20px 0px 0px;
+   background-color : white;
+   line-height : 30px;
+   border-radius : 5px;
+}
+
+.save_btn{
+   display: inline-block;
+   vertical-align:top;
+   background-color: #6cafd9;
+   font-family:'SUIT-Bold';
+   font-size : 16px;
+   line-height : 34px; /*축소*/
+   width : 80px;
+   margin-top: 10px;
+   text-align : center;
+   border-radius : 5px;
+   color : white;
+}
+
+
+
+.pagination {
+   text-align: center;
+    height: 32px;
+    margin: 30px 0 10px;
+}
+.pagination a, .pagination strong {
+   overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    min-width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 2px;
+    line-height: 30px;
+    color: #666;
+    border-radius: 0;
+}
+.pagination strong {
+   position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    cursor: default;
+}
+.pagination a:hover {
+   font-family: 'SUIT-SemiBold';
+   text-decoration: underline;  
+}
+.pagination .control {
+   width: 30px;
+   height: 30px;
+   text-decoration: none;
+   border: 1px solid #ccc;
+   background: url(../../images/btn-pagination.png) no-repeat 0 0;
+   padding: 0px;
+}
+.pagination .active {
+    color: #2E78A6;
+    border: 1px solid #6cafd9;
+    font-family:'SUIT-SemiBold';
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+.pagination .control.first {
+    margin: 0;
+    background-position: 0 0;
+}
+.pagination .control.prev {
+    margin: 0 6px 0 0;
+    background-position: -30px 0;
+}
+.pagination .control.next {
+    margin: 0 0 0 6px;
+    background-position: -60px 0;
+}
+.pagination .control.last {
+    margin: 0;
+    background-position: -90px 0;
+}
+
+.b_search {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	margin: 10px 0px 20px; 
+}
+
+.search_wrap {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.search_input {
+	display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 29px;
+    background-color: white;
+    margin-left: 10px;
+    text-align: left;
+    color: #000;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search_input:focus {
+	outline: none;
+}
+
+.search_btn {
+    display: inline-block;
+    vertical-align: top;
+    height: 33px;
+    width: 70px;
+    background-color: #8fc4df;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'SUIT-Medium' !important;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+}
+
+.search_btn:hover {
+	background-color: #82b4cd;
+}

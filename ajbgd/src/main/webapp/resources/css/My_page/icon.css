@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+/*2*/
+
+
+/**{font-family: 'SUIT-Medium','SUIT-Light';} 
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록 */
+
+td, tr {
+	text-align: center;
+}
+
+
+.center {
+	display: block;
+	width: 1300px;
+	min-height: calc(100% - 256px);
+	margin: 0px auto 100px;
+}
+
+.right {
+	display: inline-block;
+	vertical-align: top;
+	width: 1090px;
+}
+
+
+
+.box {
+	display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    border: 1px solid #c4c4c4;
+    margin-left: 70px;
+    padding: 25px 40px;
+}
+
+.main_title {
+	margin: 2px 0 60px;
+    width: 165px;
+    height: 60px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'SUIT-SemiBold';
+    border-bottom: 4px solid #6cafd9;
+    padding-left: 10px;
+    margin-left: 252px;
+}
+
+.title_icon {
+	display: inline-block;
+	vertical-align: top;
+	width: 34px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 2px;
+}
+
+.title_icon img {
+	width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.icon_wrap {
+	display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid #686868;
+    border-radius: 20px;
+    width: 130px;
+    height: 130px;
+    margin: 25px;
+    box-shadow: var(--btn-shadow);
+    cursor: pointer;
+    position: relative;
+}
+
+.wrap_cover {
+	border-radius: 20px;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+    background-color: #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.icon_wrap:hover {
+	border: 1px solid #ff8800;
+}
+
+.icon_wrap:hover .wrap_cover {
+	opacity: .1;
+}
+
+.icon_wrap img {
+	width: 100px;
+	height: 100px;
+	margin: 15px;
+}
+
+.icon_wrap+span {
+	font-size: 15px;
+	text-align: center;
+	width: 100%;	
+}
+
+/* .icon {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 60px 42px 0px 42px;
+}
+
+.icon_ch{ 
+	font-family: 'SUIT-Bold'; 
+	font-size: 15px;
+	display: inline-block;
+	vertical-align: top;
+	width: 90px;
+	height: 28px;
+	background-color: white;
+	border: 1px solid #000;
+	margin: 10px 48px 0px 45px;
+	text-align: center;
+	line-height: 28px;
+} */
+.b_btn_wrap {
+	margin: 20px 0 0 70px;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.b_btn_wrap input {
+	width: 80px;
+    height: 35px;
+    background-color: var(--button-color);
+    font-size: 16px;
+    font-family: 'SUIT-SemiBold';
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.b_btn_wrap input:hover {
+	background-color: var(--hover-color);
+}

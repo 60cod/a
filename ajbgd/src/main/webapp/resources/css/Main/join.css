@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body {
+	position: relative;
+	background-color: #fdfdf6 !important;
+}
+
+.header {
+	background-color: white !important;
+}
+
+
+/*
+*/
+.center {
+	display: block;
+	width: 1300px;
+	min-height: calc(100% - 256px);
+	margin: 0px auto;
+	text-align: center;
+}
+
+input:focus, select:focus {
+	outline-color: #ff8800;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+.join_form {
+	width: 500px;
+    background-color: WHITE;
+    margin: 80px auto 100px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #d5d5d5;
+    display: inline-block;
+}
+
+.web_name {
+	height: 80px;
+    line-height: 92px;
+    text-align: center;
+    font-size: 21px;
+    font-family: 'twayair';
+    color: #70BF5A;
+}
+
+.input_wrap {
+	width: 100%;
+	margin-top: 16px;
+}
+
+.user_box {
+	display: inline-block;
+    vertical-align: top;
+    width: 360px;
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: left;
+    color: #2e2e2e;
+    font-family: 'SUIT-Medium';
+}
+
+.input_box, .email_select {
+	width: 350px;
+    height: 30px;
+    background-color: #fbfbfb;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: left;
+    border: 1px solid #8f8f8f;
+    border-radius: 4px;
+    text-indent: 7px;
+    margin-top: 4px;
+    display: inline-block;
+    font-family: 'SUIT-Light';
+}
+
+#email {
+	width: 153px;
+    margin-right: 4px;
+}
+
+.email_select {
+	width: 173px;
+    height: 34px;
+    background-color: white;
+    margin-left: 4px;
+}
+
+#gender {
+	height: 34px;
+    background-color: white;
+    width: 356px;
+}
+
+.btn_wrap {
+	width: 500px;
+	height: 100px;
+	text-align: center;
+}
+
+.join_btn {
+	width: 70px;
+    height: 36px;
+    background-color: var(--button-color);
+    color: white;
+    font-size: 15px;
+    font-family: 'SUIT-SemiBold';
+    line-height: 36px;
+    text-align: center;
+    margin-top: 33px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: inline-block;
+    box-shadow: var(--btn-shadow);
+}
+
+.join_btn:hover {
+	background-color: var(--hover-color);
+}

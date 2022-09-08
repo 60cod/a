@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+
+table {
+	width :980px;
+    margin: 0 auto;
+    border: 1px solid #c2c2c2;
+    border-collapse: collapse;
+    
+}
+
+th{
+    height: 55px;    
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: -internal-center;
+    font-size: 16px;
+    font-family: 'SUIT-SemiBold';
+    color: #4d4848;
+    border-bottom: 1px solid #dfdfdf;
+    font-weight: normal;
+}
+
+td {
+   text-align: center;
+   height: 50px;
+   font-size: 15px;
+}
+
+td:nth-child(5) {
+	text-align: left;
+}
+
+.center {
+   width: 1100px;
+   min-height: calc(100% - 356px);
+   margin: 0px auto 100px;
+   position: relative;
+}
+
+.box{
+    width: 980px;
+    margin: 50px 57px;
+}
+
+.main_title{
+	display: inline-block;
+    vertical-align: top;
+    width: 174px;
+    height: 60px;
+    line-height: 78px;
+    font-family: 'SUIT-SemiBold';
+    font-size: 20px;
+    border-bottom: 4px solid #6cafd9;
+    padding-left: 10px;
+    margin: 15px 0 8px 57px;
+}
+
+.cart_date {
+	height: 20px;
+    font-family: 'SUIT-SemiBold';
+    font-size: 15px;
+    line-height: 20px;
+    margin: 5px 0 0 57px;
+    color: #808080;
+    
+}
+
+.btn_wrap {
+   display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    text-align: right;
+    width: 982px;
+    position: absolute;
+    top: 120px;
+    right: 55px;
+}
+
+.ed_btn {
+   display:inline-block;
+   vertical-align:top;
+   font-family:'SUIT-SemiBold';
+   font-size : 16px;
+   line-height : 32px;
+   width : 56px;
+   text-align : center;
+   color : white;
+   border-radius : 5px;
+   background-color : #8fc4df;
+   cursor: pointer;
+   margin-right: 10px;
+   text-align: center;
+}
+
+.ed_btn:hover {
+	background-color: #82b4cd;
+}
+
+.tprice{
+	height: 70px;
+    font-size: 20px;
+    text-align: left;
+    margin: 25px 16px;
+}
+
+.tprice p {
+	font-size: 17px;
+    margin: 15px 0;
+    font-family: 'SUIT-Medium';
+}
+
+.tprice img {
+	width: 25px;
+    height: 25px;
+    margin-right: 7px;
+}
+
+.tprice span {
+	font-size: 19px;
+    color: #7e7e7e;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+.b_btn{
+	text-align: center;
+}
+
+.img_btn{
+	display: inline-block;
+    vertical-align: top;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: #8fc4df;
+    font-family: 'SUIT-SemiBold';
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.img_btn:hover {
+	background-color: #82b4cd;
+}
+
+
+
+.price_box{
+	height: 40px;
+    text-align: center;
+    margin-top:10px;
+}
+
+.mileage_box{
+   text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px -1px #ccc;
+    width: 450px;
+    height: 43px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    line-height: 43px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.mileage{
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'SUIT-Medium';
+    color: #484848;
+    margin: 0px 30px;
+}
+
+.total_mile{
+   display: inline-block;
+    width: 200px;
+    background-color: white;
+    font-family: 'SUIT-SemiBold';
+    color: #ff6100ff;
+    margin: 7px;
+    height: 29px;
+    line-height: 29px;
+}
+.save_btn{
+   display: inline-block;
+   vertical-align:top;
+   background-color: #6cafd9;
+   font-family:'SUIT-Bold';
+   font-size : 16px;
+   line-height : 34px;
+   text-align : center;
+   border-radius : 5px;
+   width : 160px;
+   color : white;
+}
+

@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+
+/** 
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록
+   #ff8800 연한 주황
+   #ff6100ff 진한 주황 */
+
+:root {
+	--button-color: #8fc4df;
+	--hover-color: #82b4cd;
+	--btn-shadow: 1px 2px 3px 0 rgb(0 0 0 / 16%);
+}
+
+
+.center {
+   width: 1300px;
+   margin: 0px auto 100px;
+   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
+   min-height: calc(100% - 256px);
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 200px;
+	height: 97px;
+	background: url("../../images/logo6.png") no-repeat 0/120px;
+	border-radius: 15px;
+	margin: 2px 0;
+	font-size: 30px;
+	color: navy;
+	font-family: 'SUIT-Bold';
+}
+
+.category_wrap {
+	height: 100%;
+    width: 183px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.menu_name, .category1, .category2 {
+	display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    height: 41px;
+    border: 1px solid #A9A9A9;
+    line-height: 41px;
+    cursor: pointer;
+    margin-bottom: -1px;
+}
+
+.menu_name {
+	background-color: hsl(203deg 59% 92%);
+    font-family: 'SUIT-SemiBold';
+    font-size: 16px;
+    text-indent: 15px;
+}
+
+.category1, .category2 {
+    border-right: 1px solid #A9A9A9;
+    font-family: 'SUIT-Medium';
+    font-size: 15px;
+    text-indent: 20px;
+}
+
+.lower_category {
+	font-size: 14px;
+    width: 160px;
+    border: 1px solid #A9A9A9;
+    display: none;
+    overflow: hidden;
+    z-index: 9998;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin: 0 0 -1px 0;
+}
+
+.lower_category li {
+    font-family: 'SUIT-Light';
+	margin-top: 12px;	
+	cursor: pointer;
+}
+
+.menu_name:hover {
+	background-color: hsl(203deg 59% 88%);
+}
+
+.category1.on.category1, .category2.on.category2 {
+	background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.category1:hover, .category2:hover {
+	background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.lower_category li:hover {
+	font-family: 'SUIT-Medium';
+}
+
+
+.right {
+   display: inline-block;
+   vertical-align: top;
+   width : 1090px;
+}
+
+.main_title {
+	margin: 2px 0 60px;
+    width: 165px;
+    height: 60px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'SUIT-SemiBold';
+    border-bottom: 4px solid #6cafd9;
+    padding-left: 10px;
+    margin-left: 222px;
+}
+
+.main_title_txt {
+   display: inline-block;
+   vertical-align: top;
+   width : 1000px;
+   height : 20px;
+   font-family :'SUIT-Medium';
+   font-size : 13px;
+   line-height : 20px;
+}
+
+
+
+.box{
+    height: 450px;
+    background-color: white;
+    border: 1px solid #e3e3e3;
+    margin: 0 40px 10px;
+    text-align: center;
+}
+
+
+.attend_box {
+	text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.attend_btn{
+   display: inline-block;
+    vertical-align: top;
+    background-color: var(--button-color);
+    font-family: 'SUIT-Bold';
+    font-size: 16px;
+    line-height: 34px;
+    width: 80px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    box-shadow: var(--btn-shadow);
+}
+
+.attend_btn:hover {
+	background-color: #82b4cd;
+}
+
+
+.mileage_box{
+	text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px -1px #ccc;
+    width: 450px;
+    height: 43px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    line-height: 43px;
+    font-size: 16px;
+}
+
+.mileage{
+   display: inline-block;
+    vertical-align: top;
+    font-family: 'SUIT-Medium';
+    color: #484848;
+    margin: 0px 30px;
+}
+
+.total_mile{
+   display: inline-block;
+    width: 200px;
+    background-color: white;
+    font-family: 'SUIT-SemiBold';
+    color: #ff6100ff;
+    margin: 7px;
+    height: 29px;
+    line-height: 29px;
+}
+

@@ -1,0 +1,318 @@
+@charset "UTF-8";
+
+
+/*
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록
+   #ff8800 연한 주황
+   #ff6100ff 진한 주황 
+   
+   버튼 색
+   background-color: #8fc4df;
+   
+   버튼 호버 색
+   background-color: #82b4cd;
+   
+   버튼 박스쉐도우
+   box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 16%);
+*/
+
+
+
+.center {
+	display: block;
+    width: 1300px;
+    min-height: calc(100% - 256px);
+    margin: 0px auto 100px;
+}
+
+
+.box {
+	display: inline-block;
+	vertical-align: top;
+	width: 950px;
+	background-color: white;
+	border-top: 1px solid black;
+	margin: 0px 70px 20px 70px;
+}
+
+.box span {
+	font-size: 13px;
+	color: #b3b3b3;
+	line-height: 39px;
+	margin-left: 5px;
+}
+
+.box td, .box th {
+    display: table-cell;
+    text-align: center;
+    margin-top: px;
+    padding: 2.5px 10px;
+}
+
+.box table {
+    background-color: white;
+	width: 950px;
+    height: 300px;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+tbody td:nth-child(2) {
+	text-align: left !important;
+}
+
+.box td {
+	border-collapse: collapse;
+	text-indent: initial;
+    border-spacing: 2px;
+	height: 39px;
+	line-height: 39px;
+}
+
+.box a:hover {
+	font-family: 'SUIT-Medium';
+}
+
+.box table thead tr th {
+    height: 45px;
+    font-family: 'SUIT-SemiBold';
+    font-size: 16px;
+    border-bottom: 1px solid #e6e7e8;
+}
+
+
+.right {
+	display: inline-block;
+	vertical-align: top;
+	width: 1090px;
+	position: relative;
+}
+
+
+/*
+------------- 상단 버튼 -------------
+	(right에 관계해서 고정됨)
+*/
+.t_btn_wrap {
+	display: inline-block;
+    position: absolute;
+    top: -45px;
+    left: 960px;
+}
+
+.write_btn {
+	font-family: 'SUIT-SemiBold';
+    font-size: 15px;
+    line-height: 33px;
+    width: 60px;
+    height: 33px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: var(--button-color);
+    cursor: pointer;
+    box-shadow: var(--btn-shadow);
+}
+
+.write_btn:hover {
+	background-color: var(--hover-color);
+}
+
+
+
+
+
+.main_title {
+	margin: 2px 0 60px;
+    width: 165px;
+    height: 60px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'SUIT-SemiBold';
+    border-bottom: 4px solid #6cafd9;
+    padding-left: 10px;
+    margin-left: 252px;
+}
+
+.title_icon {
+	display: inline-block;
+	vertical-align: top;
+	width: 30px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 2px;
+}
+
+.thead {
+	height: 60px;
+	font-size: 18px;
+	font-family: 'SUIT-medium';
+	text-align: center;
+	line-height: 60px;
+	border-bottom: 1px solid #D5F2F2;
+}
+
+.thead_title1 {
+	display: inline-block;
+	vertical-align: top;
+	height: 60px;
+	width: 630px;
+}
+
+.thead_title2 {
+	display: inline-block;
+	vertical-align: top;
+	height: 60px;
+	width: 135px;
+}
+
+.thead_title3 {
+	display: inline-block;
+	vertical-align: top;
+	height: 60px;
+	width: 100px;
+}
+
+.tbody {
+	height: 40px;
+	font-size: 14px;
+	font-family: 'SUIT-medium';
+	text-align: center;
+	line-height: 40px;
+	border-bottom: 1px solid #D5F2F2;
+}
+
+.tbody_1 {
+	display: inline-block;
+	vertical-align: top;
+	height: 40px;
+	width: 70px;
+}
+
+.tbody_2 {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	height: 40px;
+	width: 630px;
+}
+
+.tbody_3 {
+	display: inline-block;
+	vertical-align: top;
+	height: 40px;
+	width: 135px;
+}
+
+.tbody_4 {
+	display: inline-block;
+	vertical-align: top;
+	height: 40px;
+	width: 100px;
+}
+
+.tfoot {
+	height: 60px;
+	font-size: 16px;
+	font-family: 'SUIT-medium';
+	line-height: 60px;
+	margin-top: 20px;
+}
+
+.tfoot_1 {
+	display: inline-block;
+	vertical-align: top;
+	font-family: 'SUIT-medium';
+	height: 60px;
+	width: 74px;
+}
+
+.tfoot_2 {
+	display: inline-block;
+	vertical-align: top;
+	height: 60px;
+	width: 200px;
+	text-align: center;
+}
+
+.revise {
+	margin-right: 100px;
+	height: 60px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.pagination {
+   height: 32px;
+   text-align: center;
+   margin: 10px 0px; 
+}
+
+.pagination a, .pagination strong {
+	overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    min-width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 2px;
+    line-height: 30px;
+    color: #666;
+    border-radius: 0;
+}
+
+.pagination strong {
+	position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.pagination a:hover {
+	font-family: 'SUIT-SemiBold';
+	text-decoration: underline;  
+}
+
+.pagination .control {
+	width: 30px;
+	height: 30px;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	background: url(img/btn-pagination.png) no-repeat 0 0;
+	padding: 0px;
+}
+
+.pagination .active {
+    color: #2E78A6;
+    border: 1px solid #6cafd9;
+    font-family:'SUIT-SemiBold';
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.pagination .control.first {
+    margin: 0;
+    background-position: 0 0;
+}
+
+.pagination .control.prev {
+    margin: 0 6px 0 0;
+    background-position: -30px 0;
+}
+
+.pagination .control.next {
+    margin: 0 0 0 6px;
+    background-position: -60px 0;
+}
+
+.pagination .control.last {
+    margin: 0;
+    background-position: -90px 0;
+}

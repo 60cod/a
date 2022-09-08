@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+/*
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록
+   #ff8800 연한 주황
+   #ff6100ff 진한 주황 */
+
+
+
+/*
+	아이콘 추가 팝업
+*/
+#iPopup {
+	display:none;
+}
+
+.insert_popup {
+	width: 400px;
+    background-color: white;
+    border: 1px solid #808080;
+    position: absolute;
+    top: -27px;
+    left: calc(50% - 200px);
+    z-index: 100;
+    border-radius: 3px;
+    box-shadow: 1px 1px 8px 1px #e4e4e4;
+}
+
+.insert_popup input:focus {
+	outline-color: #ff8800;
+}
+
+.insert_popup thead tr td:first-child {
+	font-size: 17px;
+    font-family: 'SUIT-Medium';
+    height: 33px;
+    padding-left: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.p_close_btn {
+	width: 25px;
+    height: 25px;
+    float: right;
+    line-height: -16px;
+    margin: 12px;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.insert_popup table {
+	margin: 0;
+}
+
+.insert_popup tbody tr {
+	height: 70px;
+    line-height: 60px;
+}
+.insert_popup tbody td:first-child {
+    padding-left: 20px;
+    width: 110px;
+    vertical-align: top;
+    padding-top: 6px;
+}
+	
+
+.insert_popup tbody tr:last-child td {
+	text-align: center;
+	padding: 0;
+}
+
+.p_name_input, .p_price_input {
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fbfbfb;
+    height: 27px;
+    width: 215px;
+    margin: 0 10px;
+}
+
+.p_price_input {
+	width: 156px;
+    margin-right: 5px;
+}
+
+.p_price_input+span {
+	color: #8b8b8b;
+}
+
+.p_insert_btn {
+	font-family: 'SUIT-SemiBold';
+    font-size: 15px;
+    line-height: 33px;
+    width: 65px;
+    height: 33px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: var(--button-color);
+    cursor: pointer;
+    display: inline-block;
+	border: none;
+	box-shadow: var(--btn-shadow);
+}
+
+.p_insert_btn:hover {
+	background-color: var(--hover-color);
+}
+
+.p_add_file {
+	padding: 24px 0 0 10px;
+}
+
+.preview {
+	width: 217px;
+    height: 217px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 10px;
+    background: #fbfbfb url(../../images/screenshot.png) no-repeat 50% 50%/60px;
+}
+
+.p_back {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #00000054;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+
+
+/*
+------------- 중앙 -------------
+*/
+.center {
+   width: 1300px;
+   margin: 0px auto 100px;
+   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
+   min-height: calc(100% - 356px);
+   position: relative;
+   z-index: 100px;
+}
+
+
+
+/*
+------------- 페이지 이름 -------------
+*/
+.main_title {
+	margin: 2px 0 60px;
+    width: 165px;
+    height: 60px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'SUIT-SemiBold';
+    border-bottom: 4px solid #6cafd9;
+    padding-left: 10px;
+    margin-left: 222px;
+}
+
+
+/*
+------------- 상단 버튼 -------------
+	(box에 관계해서 고정됨)
+*/
+.t_btn_wrap {
+	display: inline-block;
+    position: absolute;
+    top: -45px;
+    left: 838px;
+    width: 200px;
+}
+
+.update_btn, .insert_btn {
+	font-family: 'SUIT-SemiBold';
+    font-size: 15px;
+    line-height: 33px;
+    width: 65px;
+    height: 33px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: var(--button-color);
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: var(--btn-shadow);
+}
+
+.insert_btn {
+	width: 100px;
+	margin-right: 10px;
+}
+
+.stop_btn {
+	display : inline-block;
+	vertical-align :top;
+    font-size: 15px;
+    width: 65px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 3px;
+	color: #585858;
+    background-color: white;
+    border: 1px solid var(--button-color);
+    font-family: 'SUIT-Medium';
+}
+
+.update_btn:hover, .stop_btn:hover, .insert_btn:hover {
+	background-color: var(--hover-color);
+}
+
+.stop_btn:hover {
+	background-color: #ededed;
+}
+
+
+/* 
+------------- 내용물 주변 마진 -------------
+	(상단 버튼이 box에 관계해서 위치함)
+*/
+.box {
+	border-top: 2px solid #808080;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 36px;
+    position: relative;
+}
+
+/*
+------------- 높이 있는 내용물 -------------
+	(예를 들어 테이블. 사이즈 없으면 상위 box도 줄어듦)
+*/
+.inner_box {
+    background-color: white;
+    width: 1040px;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+
+
+.inner_box table{
+	border: 1px solid #fff;
+	width: 1040px;
+	margin: 0 auto;
+	text-align: center;
+	color : black;
+	border-collapse: collapse;
+}
+
+.inner_box tr:nth-child(1), .inner_box tr:nth-child(5) {
+	height: 60px;
+	font-family: 'SUIT-SemiBold';
+    color: #585858;
+    line-height: 50px;
+}
+
+.inner_box tr:nth-child(2), .inner_box tr:nth-child(6) {
+	height: 120px;
+}
+
+.inner_box tr:nth-child(3), .inner_box tr:nth-child(7) {
+	color: #ff8800;
+	font-family: 'SUIT-Medium';
+	font-size: 14px;
+}
+
+.inner_box tr:nth-child(4) {
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.inner_box tr:nth-child(4), .inner_box tr:nth-child(8) {
+	height: 80px;
+}
+

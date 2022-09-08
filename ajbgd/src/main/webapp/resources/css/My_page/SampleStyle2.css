@@ -1,0 +1,511 @@
+@charset "UTF-8";
+
+/*
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록
+   #ff8800 연한 주황
+   #ff6100ff 진한 주황 */
+
+@font-face {
+    font-family: 'twayair';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eulyoo1945-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SUIT-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SUIT-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-SemiBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SUIT-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SUIT-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 
+------------- 기본 -------------
+*/
+body {
+	min-width: 1300px;
+	background-color: white;
+	font-family: 'SUIT-Light';
+	font-size: 14px;
+	color: #333333;
+	margin: 0px;
+	/* 푸터 하단 고정 위해 */
+	height: 100%;
+}
+
+html {
+	/* 푸터 하단 고정 위해 */
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+	cursor: pointer;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.fl {
+   float: left;
+}
+
+.fr {
+   float: right;
+}
+
+
+/*
+------------- 상단 -------------
+*/
+.header {
+   height: 140px;
+   text-align: right;
+}
+
+.header_top {
+   border-bottom: 1px solid #A9A9A9;
+   height: 40px;
+   text-align: center;
+}
+
+.h_t_inner {
+   font-family:'SUIT-Light';
+   display: inline-block;
+   vertical-align: top;
+   line-height: 35px;
+   width: 1300px;
+   text-align: right;
+}
+
+.header_bottom {
+   vertical-align: top;
+   height: 100px;
+   text-align: center;
+   border-bottom: 2px solid #A9A9A9;
+}
+
+.h_b_inner {
+   font-family:'SUIT-Bold';
+   display: inline-block;
+   vertical-align: top;
+   height: 100px;
+   width: 1300px;
+   text-align: right;
+}
+
+.link {
+   display: inline-block;
+   vertical-align: top;
+   height: 30px;
+   margin : 7px 15px 3px;
+   font-size: 14px;
+   text-align: center;
+}
+
+.menu {
+   display: inline-block;
+   vertical-align: top;
+   height: 30px;
+   margin: 55px 50px 0px 50px;
+   font-size: 18px;
+   text-align: center;
+}
+
+.user {
+   display: inline-block;
+   vertical-align: top;
+   height: 30px;
+   margin : 7px 15px 3px;
+   font-size: 14px;
+   text-align: center;
+}
+
+.user_icon {
+   display: inline-block;
+   vertical-align: top;
+   height: 30px;
+   width: 35px;
+   text-align: center;
+} 
+
+.user_id {
+   display: inline-block;
+   vertical-align: top;
+   height: 30px;
+   width: 60px;
+   font-size: 14px;
+   text-align: center;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 200px;
+	height: 97px;
+	background: url("../img/logo6.png") no-repeat 0/120px;
+	border-radius: 15px;
+	margin: 2px 0;
+	font-size: 30px;
+	color: navy;
+	font-family: 'SUIT-Bold';
+}
+
+
+/*
+------------- 중앙 -------------
+*/
+.center {
+   width: 1300px;
+   margin: 0px auto 100px;
+   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
+   min-height: calc(100% - 408px);
+}
+
+/*
+------------- 페이지 이름 -------------
+*/
+.main_title {
+	margin: 2px 0 60px;
+    width: 165px;
+    height: 60px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'SUIT-SemiBold';
+    border-bottom: 4px solid #6cafd9;
+    padding-left: 10px;
+    margin-left: 222px;
+}
+
+
+/* 
+------------- 왼쪽 카테고리 -------------
+*/
+.category_wrap {
+	height: 100%;
+    width: 183px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.category1, .category2 {
+	display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    height: 41px;
+    border: 1px solid #A9A9A9;
+    line-height: 41px;
+    cursor: pointer;
+    margin-bottom: -1px;
+    font-family: 'SUIT-Medium';
+    font-size: 15px;
+    text-indent: 20px;
+}
+
+.lower_category {
+	font-size: 14px;
+    width: 160px;
+    border: 1px solid #A9A9A9;
+    display: none;
+    overflow: hidden;
+    z-index: 9998;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin: 0 0 -1px 0;
+}
+
+
+.lower_category li {
+    font-family: 'SUIT-Light';
+	margin-top: 12px;	
+	cursor: pointer;
+}
+
+.category1.on.category1, .category2.on.category2 {
+	background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.category1:hover, .category2:hover {
+	background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.lower_category li:hover {
+	font-family: 'SUIT-Medium';
+}
+
+
+
+
+/*
+------------- 상단 버튼 -------------
+	(box에 관계해서 고정됨)
+*/
+.t_btn_wrap {
+	display: inline-block;
+    position: absolute;
+    top: -45px;
+    left: 965px;
+}
+
+.write_btn {
+	font-family: 'SUIT-SemiBold';
+    font-size: 15px;
+    line-height: 33px;
+    width: 65px;
+    height: 33px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: #6cafd9;
+    cursor: pointer;
+}
+
+.write_btn:hover, .ed_btn:hover {
+	background-color: #629fc5;
+}
+
+
+/* 
+------------- 내용물 주변 마진 -------------
+	(상단 버튼이 box에 관계해서 위치함)
+*/
+.box {
+	border-top: 2px solid #808080;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 36px;
+    position: relative;
+}
+
+/*
+------------- 높이 있는 내용물 -------------
+	(예를 들어 테이블. 사이즈 없으면 상위 box도 줄어듦)
+*/
+.inner_box {
+    background-color: white;
+    width: 1040px;
+    height: 400px;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+
+/*
+------------- 페이징 -------------
+*/
+.pagination {
+	text-align: center;
+	height: 32px;
+	margin: 30px 0 10px;
+}
+
+.pagination a, .pagination strong {
+	overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    min-width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 2px;
+    line-height: 30px;
+    color: #666;
+    border-radius: 0;
+}
+
+.pagination strong {
+	position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.pagination a:hover {
+	font-family: 'SUIT-SemiBold';
+	text-decoration: underline;  
+}
+
+.pagination .control {
+	width: 30px;
+	height: 30px;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	background: url(../img/btn-pagination.png) no-repeat 0 0;
+	padding: 0px;
+}
+
+.pagination .active {
+    color: #2E78A6;
+    border: 1px solid #6cafd9;
+    font-family:'SUIT-SemiBold';
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.pagination .control.first {
+    margin: 0;
+    background-position: 0 0;
+}
+
+.pagination .control.prev {
+    margin: 0 6px 0 0;
+    background-position: -30px 0;
+}
+
+.pagination .control.next {
+    margin: 0 0 0 6px;
+    background-position: -60px 0;
+}
+
+.pagination .control.last {
+    margin: 0;
+    background-position: -90px 0;
+}
+
+
+/*
+------------- 하단 검색 -------------
+*/
+.b_search {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	margin: 10px 0px 20px; 
+}
+
+.search_select {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	height: 33px;
+	color: #000;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+.search_wrap {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.search_input {
+	display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 29px;
+    background-color: white;
+    margin-left: 10px;
+    text-align: left;
+    color: #000;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search_input:focus {
+	outline: none;
+}
+
+.search_btn {
+    display: inline-block;
+    vertical-align: top;
+    height: 33px;
+    width: 70px;
+    background-color: #6cafd9;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'SUIT-Medium' !important;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+}
+
+.search_btn:hover {
+	background-color: #629fc5;
+}
+
+
+/*
+------------- 푸터 -------------
+*/
+.footer {
+	border-top: 1px solid #d0d0d0;
+    background-color: white;
+    padding: 20px 0 40px;
+    margin: 0 auto;
+}
+
+.inner_footer {
+	width: 1300px;
+    margin: 0 auto;
+    height: 55px;
+    text-align: center;
+}
+
+.company_info {
+	display: inline-block;
+    vertical-align: top;
+}
+
+.company_info P {
+	padding-bottom: 2px;
+    font-size: 12px;
+    color: #707070;
+    line-height: 16px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.inner_footer .copyright {
+	font-size: 11px;
+}

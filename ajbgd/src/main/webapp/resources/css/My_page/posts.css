@@ -1,0 +1,396 @@
+@charset "UTF-8";
+
+
+/** 
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록
+   #ff8800 연한 주황
+   #ff6100ff 진한 주황 
+   
+   버튼 색
+   background-color: #8fc4df;
+   
+   버튼 호버 색
+   background-color: #82b4cd;
+   
+   버튼 박스쉐도우
+   box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 16%);
+*/
+
+
+
+.box {
+	display: inline-block;
+    vertical-align: top;
+    width: 1000px;
+    height: 510px;
+    background-color: white;
+    margin: 0px 45px 20px 45px;
+    border-top: 1px solid #808080;
+}
+
+.box span {
+	font-size: 13px;
+	color: #b3b3b3;
+	line-height: 39px;
+	margin-left: 5px;
+}
+
+
+.box table {
+    background-color: white;
+	width: 1000px;
+    height: 300px;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+tbody td:nth-child(3) {
+	text-align: left !important;
+}
+
+.box td, .box th {
+    display: table-cell;
+    text-align: center;
+    margin-top: px;
+    padding: 2.5px 10px;
+	border-collapse: collapse;
+	text-indent: initial;
+    border-spacing: 2px;
+	height: 39px;
+	line-height: 39px;
+}
+
+.box a:hover {
+	font-family: 'SUIT-Medium';
+}
+
+.box table thead tr th {
+    height: 45px;
+    font-family: 'SUIT-SemiBold';
+    font-size: 16px;
+    border-bottom: 1px solid #e6e7e8;
+}
+
+.center {
+	display: block;
+	width: 1300px;
+	min-height: calc(100% - 253px);
+	margin: 0px auto;
+}
+
+.right {
+	display: inline-block;
+    vertical-align: top;
+    width: 1090px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+/* 
+------------- 왼쪽 카테고리 -------------
+*/
+.category_wrap {
+	height: 100%;
+    width: 183px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.menu_name, .category1, .category2 {
+	display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    height: 41px;
+    border: 1px solid #A9A9A9;
+    line-height: 41px;
+    cursor: pointer;
+    margin-bottom: -1px;
+}
+
+.menu_name {
+	background-color: hsl(203deg 59% 92%);
+    font-family: 'SUIT-SemiBold';
+    font-size: 16px;
+    text-indent: 15px;
+}
+
+.category1, .category2 {
+    border-right: 1px solid #A9A9A9;
+    font-family: 'SUIT-Medium';
+    font-size: 15px;
+    text-indent: 20px;
+}
+
+.lower_category {
+	font-size: 14px;
+    width: 160px;
+    border: 1px solid #A9A9A9;
+    display: none;
+    overflow: hidden;
+    z-index: 9998;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin: 0 0 -1px 0;
+}
+
+.lower_category li {
+    font-family: 'SUIT-Light';
+	margin-top: 12px;	
+	cursor: pointer;
+}
+
+.menu_name:hover {
+	background-color: hsl(203deg 59% 88%);
+}
+
+.category1.on.category1, .category2.on.category2 {
+	background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.category1:hover, .category2:hover {
+	background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.lower_category li:hover {
+	font-family: 'SUIT-Medium';
+}
+
+
+.main_title {
+	margin: 2px 0 60px;
+    width: 165px;
+    height: 60px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'SUIT-SemiBold';
+    border-bottom: 4px solid #6cafd9;
+    margin-left: 234px;
+}
+
+.title_icon {
+	display: inline-block;
+	vertical-align: top;
+	width: 30px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 2px;
+}
+
+
+
+/*
+------------- 상단 버튼 -------------
+	(right에 관계해서 고정됨)
+*/
+.t_wrap {
+	display: inline-block;
+    position: absolute;
+    top: -45px;
+    left: 985px;
+}
+
+.write_btn {
+	font-family: 'SUIT-SemiBold';
+    font-size: 15px;
+    line-height: 33px;
+    width: 60px;
+    height: 33px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: #8fc4df;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 16%);
+}
+
+.write_btn:hover {
+	background-color: #82b4cd;
+}
+
+
+
+
+
+
+.thead {
+	height: 60px;
+	font-size: 18px;
+	font-family: 'SUIT-medium';
+	text-align: center;
+	line-height: 60px;
+	border-bottom: 1px solid #D5F2F2;
+}
+
+.thead_title1 {
+	display: inline-block;
+	vertical-align: top;
+	height: 60px;
+	width: 630px;
+}
+
+.thead_title2 {
+	display: inline-block;
+	vertical-align: top;
+	height: 60px;
+	width: 135px;
+}
+
+.thead_title3 {
+	display: inline-block;
+	vertical-align: top;
+	height: 60px;
+	width: 100px;
+}
+
+.tbody {
+	height: 40px;
+	font-size: 14px;
+	font-family: 'SUIT-medium';
+	text-align: center;
+	line-height: 40px;
+	border-bottom: 1px solid #D5F2F2;
+}
+
+.tbody_1 {
+	display: inline-block;
+	vertical-align: top;
+	height: 40px;
+	width: 70px;
+}
+
+.tbody_2 {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	height: 40px;
+	width: 630px;
+}
+
+.tbody_3 {
+	display: inline-block;
+	vertical-align: top;
+	height: 40px;
+	width: 135px;
+}
+
+.tbody_4 {
+	display: inline-block;
+	vertical-align: top;
+	height: 40px;
+	width: 100px;
+}
+
+.tfoot {
+	height: 60px;
+	font-size: 16px;
+	font-family: 'SUIT-medium';
+	line-height: 60px;
+	margin-top: 20px;
+}
+
+.tfoot_1 {
+	display: inline-block;
+	vertical-align: top;
+	font-family: 'SUIT-medium';
+	height: 60px;
+	width: 74px;
+}
+
+.tfoot_2 {
+	display: inline-block;
+	vertical-align: top;
+	height: 60px;
+	width: 200px;
+	text-align: center;
+}
+
+.revise {
+	margin-right: 100px;
+	height: 60px;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+/*
+------------- 페이징 -------------
+*/
+.pagination {
+	text-align: center;
+	height: 32px;
+	margin: 30px 0 10px;
+}
+
+.pagination a, .pagination strong {
+	overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    min-width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 2px;
+    line-height: 30px;
+    color: #666;
+    border-radius: 0;
+}
+
+.pagination strong {
+	position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.pagination a:hover {
+	font-family: 'SUIT-SemiBold';
+	text-decoration: underline;  
+}
+
+.pagination .control {
+	width: 30px;
+	height: 30px;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	background: url(../../images/btn-pagination.png) no-repeat 0 0;
+	padding: 0px;
+}
+
+.pagination .active {
+    color: #2E78A6;
+    border: 1px solid #6cafd9;
+    font-family:'SUIT-SemiBold';
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.pagination .control.first {
+    margin: 0;
+    background-position: 0 0;
+}
+
+.pagination .control.prev {
+    margin: 0 6px 0 0;
+    background-position: -30px 0;
+}
+
+.pagination .control.next {
+    margin: 0 0 0 6px;
+    background-position: -60px 0;
+}
+
+.pagination .control.last {
+    margin: 0;
+    background-position: -90px 0;
+}

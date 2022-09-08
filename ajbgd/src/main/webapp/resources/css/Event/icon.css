@@ -1,0 +1,366 @@
+@charset "UTF-8";
+
+
+
+/** 
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록
+   #ff8800 연한 주황
+   #ff6100ff 진한 주황 
+   
+   버튼 색
+   background-color: #8fc4df;
+   
+   버튼 호버 색
+   background-color: #82b4cd;
+   
+   버튼 박스쉐도우
+   box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 16%);
+*/
+
+
+/*
+------------- 중앙 -------------
+*/
+.center {
+   width: 1300px;
+   margin: 0px auto 100px;
+   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
+   min-height: calc(100% - 356px);
+}
+
+.category {
+   display: inline-block;
+   vertical-align: top;
+   margin: 70px 14px 0px 14px;
+   width: 170px;
+   background-color : white;
+   border : 1px solid #909090;
+}
+
+
+/* 
+------------- 왼쪽 카테고리 -------------
+*/
+.category_wrap {
+	height: 100%;
+    width: 183px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.menu_name, .category1, .category2 {
+	display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    height: 41px;
+    border: 1px solid #A9A9A9;
+    line-height: 41px;
+    cursor: pointer;
+    margin-bottom: -1px;
+}
+
+.menu_name {
+	background-color: hsl(203deg 59% 92%);
+    font-family: 'SUIT-SemiBold';
+    font-size: 16px;
+    text-indent: 15px;
+}
+
+.category1, .category2 {
+    border-right: 1px solid #A9A9A9;
+    font-family: 'SUIT-Medium';
+    font-size: 15px;
+    text-indent: 20px;
+}
+
+.lower_category {
+	font-size: 14px;
+    width: 160px;
+    border: 1px solid #A9A9A9;
+    display: none;
+    overflow: hidden;
+    z-index: 9998;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin: 0 0 -1px 0;
+}
+
+.lower_category li {
+    font-family: 'SUIT-Light';
+	margin-top: 12px;	
+	cursor: pointer;
+}
+
+.menu_name:hover {
+	background-color: hsl(203deg 59% 88%);
+}
+
+.category1.on.category1, .category2.on.category2 {
+	background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.category1:hover, .category2:hover {
+	background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.lower_category li:hover {
+	font-family: 'SUIT-Medium';
+}
+
+
+
+/*
+------------- 페이지 이름 -------------
+*/
+.main_title {
+	margin: 2px 0 60px;
+    width: 165px;
+    height: 60px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'SUIT-SemiBold';
+    border-bottom: 4px solid #6cafd9;
+    padding-left: 10px;
+    margin-left: 222px;
+}
+
+
+
+.right {
+   display: inline-block;
+   vertical-align: top;
+   width : 1090px;
+}
+
+.main_title_txt {
+   display: inline-block;
+   vertical-align: top;
+   width : 1000px;
+   height : 20px;
+   font-family :'SUIT-Medium';
+   font-size : 13px;
+   line-height : 20px;
+   color : rgb(29, 28, 43)
+}
+
+.box{
+     width: 1000px;
+    background-color: white;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+    margin: 0px 0px 10px 40px;
+}
+
+.level_title{
+	text-align : left;
+	margin: 20px 0px 25px;
+	display : inline-block;
+	vertical-align : top;
+	width : 950px;
+	height : 30px;
+	font-size : 17px;
+	font-family: 'SUIT-Bold';
+	line-height : 30px;
+}
+
+.level_title a {
+	padding : 0px 30px;
+	color: #707070;
+}
+
+.icon_wrap {
+	font-size: 0px;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    height: 180px;
+    margin: 17px;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px -1px #ccc;
+    cursor: pointer;
+}
+
+.icon_wrap:hover {
+    box-shadow: 1px 1px 5px -1px #a3a3a3;
+    border: 1px solid #8b8b8b;
+	
+}
+
+.icon_img {
+   display: inline-block;
+   vertical-align: top;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   margin: 10px;
+}
+
+.icon_img img {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+}
+
+
+.icon_img div {
+   	width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.icon_name {
+	display : inline-block;
+	vertical-align : top;
+	width : 100px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	font-family: 'SUIT-SemiBold';
+}
+
+.icon_price {
+	display : inline-block;
+	vertical-align : top;
+	width : 100px;
+	height: 22px;
+	font-size: 13px;
+	line-height: 22px;
+	font-family: 'SUIT-Medium';
+    color: #ff6100ff;
+}
+
+.buy_box{
+	text-align: center;
+    margin-bottom: 20px;
+}
+
+.buy_btn{
+   display: inline-block;
+   vertical-align:top;
+   background-color: #8fc4df;
+   font-family:'SUIT-Bold';
+   font-size : 16px;
+   line-height : 34px; 
+   width : 80px;
+   margin: 10px 0px 10px 0px;
+   text-align : center;
+   border-radius : 5px;
+   color : white;
+   cursor: pointer;
+   box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 16%);
+}
+
+.buy_btn:hover {
+	background-color: #82b4cd;
+}
+
+.mileage_box{
+   text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px -1px #ccc;
+    width: 450px;
+    height: 43px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    line-height: 43px;
+    font-size: 16px;
+}
+
+.mileage{
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'SUIT-Medium';
+    color: #484848;
+    margin: 0px 30px;
+}
+
+.total_mile{
+   display: inline-block;
+    width: 200px;
+    background-color: white;
+    font-family: 'SUIT-SemiBold';
+    color: #ff6100ff;
+    margin: 7px;
+    height: 29px;
+    line-height: 29px;
+}
+
+
+/*
+	페이징
+*/
+.pagination {
+   height: 32px;
+   text-align: center;
+   margin: 30px 0px; 
+}
+.pagination a, .pagination strong {
+   overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    min-width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 2px;
+    line-height: 30px;
+    color: #666;
+    border-radius: 0;
+}
+.pagination strong {
+   position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    cursor: default;
+}
+.pagination a:hover {
+   font-family: 'SUIT-SemiBold';
+   text-decoration: underline;  
+}
+.pagination .control {
+   width: 30px;
+   height: 30px;
+   text-decoration: none;
+   border: 1px solid #ccc;
+   background: url(../../images/btn-pagination.png) no-repeat 0 0;
+   padding: 0px;
+}
+.pagination .active {
+    color: #2E78A6;
+    border: 1px solid #6cafd9;
+    font-family:'SUIT-SemiBold';
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+.pagination .control.first {
+    margin: 0;
+    background-position: 0 0;
+}
+.pagination .control.prev {
+    margin: 0 6px 0 0;
+    background-position: -30px 0;
+}
+.pagination .control.next {
+    margin: 0 0 0 6px;
+    background-position: -60px 0;
+}
+.pagination .control.last {
+    margin: 0;
+    background-position: -90px 0;
+}

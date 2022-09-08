@@ -1,0 +1,358 @@
+@charset "UTF-8";
+
+
+/** 
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록
+   #ff8800 연한 주황
+   #ff6100ff 진한 주황 */
+
+
+.cmn_btn_mr {
+   background-color: var(--button-color);
+   cursor: pointer;
+   margin-right: 10px;
+   width: 55px;
+   color: white;
+   font-family: 'SUIT-SemiBold';
+   border-radius:5px;
+}
+
+.board_detail_table tbody tr {
+   border-bottom: 1px solid #d7d7d7;
+   height: 40px;
+   text-align: center;
+   color: #7b7b7b;
+   font-size: 12pt;
+}
+
+.cart_title{
+   height:30px;
+}
+
+.center {
+   display: block;
+   width: 1300px;
+   min-height: calc(100% - 256px);
+   margin: 0px auto 100px;
+}
+
+.cart_title{
+   height:40px;
+}
+
+.category_wrap {
+   height: 100%;
+    width: 183px;
+    padding-top: 2px;
+    display: inline-block;
+    margin-top: 138px;
+}
+
+.menu_name, .category1, .category2 {
+   display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    height: 41px;
+    border: 1px solid #A9A9A9;
+    line-height: 41px;
+    cursor: pointer;
+    margin-bottom: -1px;
+}
+
+.menu_name {
+   background-color: hsl(203deg 59% 92%);
+    font-family: 'SUIT-SemiBold';
+    font-size: 16px;
+    text-indent: 15px;
+}
+
+.category1, .category2 {
+    border-right: 1px solid #A9A9A9;
+    font-family: 'SUIT-Medium';
+    font-size: 15px;
+    text-indent: 20px;
+}
+
+.menu_name:hover {
+   background-color: hsl(203deg 59% 88%);
+}
+
+.category1.on.category1, .category2.on.category2 {
+   background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.category1:hover, .category2:hover {
+   background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+
+.box {
+   display: inline-block;
+    vertical-align: top;
+    width: 950px;
+    /* position: relative; */
+    margin: 0 80px;
+}
+
+.main_title {
+   display: inline-block;
+    vertical-align: top;
+    width: 174px;
+    height: 60px;
+    line-height: 78px;
+    font-family: 'SUIT-SemiBold';
+    font-size: 20px;
+    border-bottom: 4px solid #6cafd9;
+    padding-left: 10px;
+    margin: 15px 0 60px 82px;
+}
+
+/* 
+.save_btn {
+    font-family: 'SUIT-SemiBold';
+    font-size: 15px;
+    line-height: 33px;
+    width: 68px;
+    height: 33px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: #6cafd9;
+    cursor: pointer;
+    position: absolute;
+    top: -42px;
+    right: 70px;
+}
+ */
+.mini_box{
+    background: rgb(255, 255, 255);
+    padding: 20px 20px 10px;
+    margin: 0px 0px 2px 0px;
+    border: 1px solid #cacaca;
+    box-shadow: rgb(18 18 18 / 6%) 0px 0px 5px 1px;
+}
+
+.msg{
+   color : #28323c ;
+   font-size: 18px;
+   font-weight:regular;
+   font-family:'SUIT-SemiBold';
+   margin-top: 15px;
+}
+
+.price_box{
+   width: 100%;
+   margin: 20px 0px 20px 0px;
+}
+
+.tprice1, .tprice2{
+   display: inline-block;
+    vertical-align: top;
+    font-size: 17px;
+    margin-right: 4px;
+}
+
+.tprice1{
+   color: rgb(170, 175, 185);
+}
+
+.selbox{
+   width:100%;
+   line-height: 35px;
+   margin-bottom: 10px;
+}
+
+.selbox img{
+   display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.all_sel{
+   display: inline-block;
+    vertical-align: top;
+    font-family: 'SUIT-Medium';
+    font-size: 15px;
+    margin: 0 5px;
+    color: #808080;
+}
+
+
+.sel_btn {
+   display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+    background-color: #8fc4df;
+    font-family: 'SUIT-SemiBold';
+    font-size: 16px;
+    line-height: 33px;
+    width: 76px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.sel_btn:hover {
+   background-color: #82b4cd;
+}
+
+.mkname{
+   height: 29px;
+    font-size: 17px;
+    font-family: 'SUIT-Medium';
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 4px;
+}
+
+.btn_wrap{
+   height: 33px;
+    margin: 25px 0 12px;
+}
+
+.del_btn{
+   width: 56px;
+    border-radius: 5px;
+    background-color: #8fc4df;
+    font-family: 'SUIT-SemiBold';
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.del_btn:hover {
+   background-color: #82b4cd;
+}
+
+.item_detail{
+   height: 88px;
+    margin-top: 13px;
+}
+
+.id_box1{
+   display:inline-block;
+   vertical-align:top;
+   width:200px;
+}
+.ci{
+   display:inline-block;
+   vertical-align:top;
+}
+
+.ci img{
+   width: 22px;
+   height: 22px;
+   cursor: pointer;
+}
+
+.i_image{
+   display:inline-block;
+   vertical-align:top;
+}
+
+.i_image img{
+   idth: 70px;
+    height: 70px;
+    margin: 0 10px;
+}
+
+.i_name{
+   display: inline-block;
+    vertical-align: top;
+    font-family: 'SUIT-Light';
+    margin-left: 13px;
+    font-size: 18px;
+}
+
+.id_box2{
+   display:inline-block;
+   vertical-align:top;
+   width:500px;
+   border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(18 18 18 / 6%) 0px 0px 5px 1px;
+}
+
+.idb_detail1{
+
+}
+
+.unit{
+   display:inline-block;
+   vertical-align:top;
+   font-family: 'SUIT-Light';
+    margin: 10px;
+}
+
+.gbn{
+   display:inline-block;
+   vertical-align:top;
+   color: rgb(233, 235, 238);
+}
+.close{
+   display:inline-block;
+   vertical-align:top;
+   margin: 8px;
+}
+
+.price1{
+   display:inline-block;
+   vertical-align:top;
+   font-family: 'SUIT-Light';
+   margin: 8px;
+   font-size: 15px;
+}
+
+.idb_detail2{
+}
+
+.plmi{
+   display:inline-block;
+   vertical-align:top;
+   width:28px;
+   height:28px;
+   padding-left:10px;
+}  
+.num{
+   display:inline-block;
+   vertical-align:top;
+   width: 35px;
+   height:25px;
+   text-align:center;
+   line-height:25px;
+}
+
+.b_btn{
+   text-align: center;
+   margin-top: 40px;
+}
+
+.new_btn{
+   display: inline-block;
+    vertical-align: top;
+    width: 152px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: #8fc4df;
+    font-family: 'SUIT-SemiBold';
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.new_btn:hover {
+   background-color: #82b4cd;
+}

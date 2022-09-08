@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+/*
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록
+   #ff8800 연한 주황
+   #ff6100ff 진한 주황 */
+
+
+/*
+------------- 중앙 -------------
+*/
+.center {
+   width: 1300px;
+   margin: 0px auto 100px;
+   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
+   min-height: calc(100% - 356px);
+}
+
+/*
+------------- 페이지 이름 -------------
+*/
+.main_title {
+	margin: 2px 0 40px;
+    width: 165px;
+    height: 60px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'SUIT-SemiBold';
+    border-bottom: 4px solid #6cafd9;
+    padding-left: 10px;
+    margin-left: 222px;
+}
+
+/* 
+------------- 왼쪽 카테고리 -------------
+*/
+.category_wrap {
+	height: 100%;
+    width: 183px;
+    padding-top: 2px;
+    display: inline-block;
+    margin-top: 102px;
+}
+
+.menu_name, .category1, .category2 {
+	display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    height: 41px;
+    border: 1px solid #A9A9A9;
+    line-height: 41px;
+    cursor: pointer;
+    margin-bottom: -1px;
+}
+
+.menu_name {
+	background-color: hsl(203deg 59% 92%);
+    font-family: 'SUIT-SemiBold';
+    font-size: 16px;
+    text-indent: 15px;
+}
+
+.category1, .category2 {
+    border-right: 1px solid #A9A9A9;
+    font-family: 'SUIT-Medium';
+    font-size: 15px;
+    text-indent: 20px;
+}
+
+.menu_name:hover {
+	background-color: hsl(203deg 59% 88%);
+}
+
+.category1.on.category1, .category2.on.category2 {
+	background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.category1:hover, .category2:hover {
+	background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+/* 
+------------- 내용물 주변 마진 -------------
+	(상단 버튼이 box에 관계해서 위치함)
+*/
+.box {
+	border-top: 1px solid #bcbcbc82;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 36px;
+    position: relative;
+}
+
+/*
+------------- 높이 있는 내용물 -------------
+	(예를 들어 테이블. 사이즈 없으면 상위 box도 줄어듦)
+*/
+.inner_box {
+    width: 1040px;
+    height: 600px;
+    border-bottom: 1px solid #bcbcbc82;
+}
+
+.none_item {
+    width: 1040px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.none_item .msg {
+    display: block;
+    padding-top: 70px;
+    font-size: 15px;
+    text-align: center;
+    color: #7B7F87;
+    line-height: 22px;
+    font-weight: normal;
+}
+
+.none_item .btn_action {
+    width: 200px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 13px 0 12px;
+    display: block;
+    margin: 27px auto;
+    background-color: hsl(203deg 59% 97%);
+    border-radius: 5px;
+    cursor: pointer;
+}

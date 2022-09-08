@@ -1,0 +1,535 @@
+@charset "UTF-8";
+
+
+
+
+/** 
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록
+   #ff8800 연한 주황
+   #ff6100ff 진한 주황 */
+   
+    
+
+
+
+
+/*
+	퀵메뉴
+*/
+
+.quickmenu1 {
+	position: absolute;
+    width: 200px;
+    top: 325px;
+    margin-top: -50px;
+    left: 100px;
+    background: #f9f9f9;
+    z-index: 10;
+    border: 1px solid #dadada;
+    box-shadow: 0px 0px 5px 0.1px #dadada;
+    /* background-color: #bddaed; */
+}
+.quickmenu2 {
+	position: absolute;
+    width: 200px;
+    top: 325px;
+    margin-top: -50px;
+    right: 100px;
+    background: #f9f9f9;
+    z-index: 10;
+    border: 1px solid #dadada;
+    box-shadow: 0px 0px 5px 0.1px #dadada;
+    /* background-color: #bddaed; */
+}
+
+.q1 {
+   width : 138px;
+   height : 300px;
+   background-color : white;
+   margin: 20px 30px 10px 30px;
+   border : 1px solid #D3D3D3; 
+}
+
+.q_title {
+	display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    /* background-color: #bddaed; */
+    font-size: 14px;
+    color: #282828;
+    font-family: 'SUIT-SemiBold';
+    text-align: center;
+    padding-top: 7px;
+    /* border: 1px solid; */
+    /* border-bottom: 1px solid #6cafd9; */
+    /* background-color: #bddaed;*/
+}
+
+.q_title span {
+	border-bottom: 2px solid #6cafd9;
+}
+
+.q_content1 {
+   display: inline-block;
+   vertical-align: top;
+   width : 138px;
+   height : 150px;
+   color : black;
+   font-family: 'SUIT-Medium';
+   font-size: 13px;
+   text-align : center;
+}
+
+.q_content2 {
+   display: inline-block;
+   vertical-align: top;
+   width : 138px;
+   height : 150px;
+   color : black;
+   font-family: 'SUIT-Medium';
+   font-size: 10px;
+   text-align : center;
+}
+
+.q_store_page {
+	height : 30px;
+	text-align : center;
+	margin-bottom : 15px;
+}
+
+.q_page_btn {
+	display: inline-block;
+	vertical-align : bottom;
+	color : black;
+	font-family: 'SUIT-Medium';
+	font-size : 11px;
+	line-height : 30px;
+}
+
+.q_info_page {
+	height : 30px;
+	text-align : center;
+	margin-bottom : 15px;
+}
+
+
+
+/*
+	중앙
+*/
+.center {
+	width: 1100px;
+   margin: 0px auto 100px;
+   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
+   min-height: calc(100% - 376px);
+} 
+/* 
+.center {
+   display: block;
+   width: 1100px;
+   height: 100%;
+   margin: 0px auto;
+} */
+
+
+
+/*
+	searchToggle
+*/
+.search_wrapper {
+	height: 65px;
+    position: relative;
+    margin-top: 70px;
+}
+.search_wrapper.active {}
+
+.search_wrapper .input_holder {    
+	height: 40px;
+    width: 40px;
+    overflow: hidden;
+    border-radius: 9px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+   
+}
+.search_wrapper.active .input_holder {
+    width: 500px;
+    border-radius: 40px;
+    background: #f1f1f1;
+    transition: all .5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+}
+.search_wrapper .input_holder .search_input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 70px 0 20px;
+    opacity: 0;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    background: transparent;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    /* font-family: "Open Sans", Arial, Verdana; */
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #808080;
+    transform: translate(0, 60px);
+    transition: all .3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+    transition-delay: 0.3s;
+    font-family: 'SUIT-Medium';
+}
+.search_wrapper.active .input_holder .search_input {
+    opacity: 1;
+    transform: translate(0, 10px);
+}
+.search_wrapper .input_holder .search_icon {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background: #6cafd9;
+    outline: none;
+    position: relative;
+    z-index: 2;
+    float: right;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-right: 0px;
+}
+
+.search_wrapper .input_holder .search_icon:hover {
+	background-color: #629fc5;
+}
+
+.search_wrapper.active .input_holder .search_icon {
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+}
+.search_wrapper .input_holder .search_icon span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    transform: rotate(45deg);
+    transition: all .4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
+    margin: 0 1px 2px 0;
+}
+.search_wrapper.active .input_holder .search_icon span {
+    transform: rotate(-45deg);
+}
+.search_wrapper .input_holder .search_icon span::before, .search_wrapper .input_holder .search_icon span::after {
+    position: absolute; 
+    content:'';
+}
+.search_wrapper .input_holder .search_icon span::before {
+    width: 4px;
+    height: 9px;
+    left: 9px;
+    top: 17px;
+    border-radius: 2px;
+    background: white;
+}
+.search_wrapper .input_holder .search_icon span::after {
+	width: 11px;
+    height: 11px;
+    left: 1px;
+    top: 0px;
+    border-radius: 11px;
+    border: 4px solid white;
+    margin-left: 1px;
+}
+.search_wrapper .close {
+    z-index: 1;
+    top: 8px;
+    right: calc(100% - 30px);
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transform: rotate(-180deg);
+    transition: all .3s cubic-bezier(0.285, -0.450, 0.935, 0.110);
+    transition-delay: 0.2s;
+    position: absolute;
+}
+.search_wrapper.active .close {
+    right: calc(100% - 536px);
+    transform: rotate(45deg);
+    transition: all .6s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+    transition-delay: 0.5s;
+}
+.search_wrapper .close::before, .search_wrapper .close::after {
+    position: absolute;
+    content: '';
+    background: #6cafd9;
+    border-radius: 2px
+}
+.search_wrapper .close::before {
+    width: 5px;
+    height: 25px;
+    left: 10px;
+    top: 0px;
+}
+.search_wrapper .close::after {
+    width: 25px;
+    height: 5px;
+    left: 0px;
+    top: 10px;
+}
+
+
+/*
+	지도 검색
+*/
+/*
+.search {
+   height: 115px;
+   text-align: left;
+}
+
+.search_1 {
+   display: inline-block;
+   height: 40px;
+   width: 500px;
+   margin: 50px 60px 0px 0px;
+   background-color: white; 
+   text-align: right;
+   line-height: 40px;
+   border-radius: 40px; 
+} 
+.search_btn {
+   display: inline-block;
+   vertical-align: top;
+   width: 110px;
+   height: 40px;
+   background-color:#6cafd9;
+   line-height: 40px;
+   border-radius: 40px;
+   font-size: 14px;
+   text-align: center;
+   color: white;
+   font-family: 'SUIT-SemiBold';
+}
+
+.dodbogi {
+   display : inline-block;
+   vertical-align : top;
+   width : 50px;
+   height: 40px;
+   text-align : center;
+   margin-left: 20px;
+} */
+
+
+/*
+	지도
+*/
+.map {
+   height: 600px;
+   width: 1100px;
+   background-color: white;
+}
+
+
+/*
+	물가 정보
+*/
+.mk {
+    width: 1098px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.mk_title {
+   display: inline-block;
+    vertical-align: top;
+    width: 1098px;
+    height: 55px;
+    background-color: #d5efff;
+    font-family: 'SUIT-SemiBold';
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0px 1px 5px -0.5px #cacaca;
+    position: relative;
+}
+
+.close_market {
+    background: url("../../images/arrow-up.png") no-repeat 0/20px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    cursor: pointer;
+	transform: rotate(180deg);
+}
+
+.close_market.active {
+	transform: rotate(0deg);
+}
+
+/* 접히는 거 수정중 */
+.close_market.active .close_market+.mk_content {
+	display: none;
+}
+/**/
+	
+.mk_name {
+   font-family: 'SUIT-SemiBold';
+    display: inline-block;
+    vertical-align: top;
+    line-height: 55px;
+    font-size: 20px;
+    color: #000;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.mk_like {
+	font-family: 'SUIT-SemiBold';
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    background: url(../../images/star-white.png) no-repeat 0/22px;
+    width: 22px;
+    height: 22px;
+    margin: 16px 2px;
+}
+
+.mk_like:hover {
+    background: url("../../images/star-line.png") no-repeat 0/22px;
+}
+
+.mk_content {
+    display: inline-block;
+    vertical-align: top;
+    width: 1060px;
+    margin: 15px 20px;
+}
+
+.mk_item {
+	display: inline-block;
+    vertical-align: top;
+    margin: 18px;
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    width: 311px;
+    height: 153px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px 1px #efefef;
+}
+
+.mk_item_part1 {
+   display: inline-block;
+   vertical-align: top;
+   width: 292px;
+   height: 65px;
+   background-color: white;
+   margin : 10px 10px 0px 10px;   
+}
+
+.mk_item_part2 {
+   display: inline-block;
+   vertical-align: top;
+   width: 282px;
+   height: 65px;
+   background-color: white;
+   margin : 0px 10px 10px 20px; 
+}
+
+
+.item_image {
+   display: inline-block;
+   vertical-align: top;
+   width: 50px;
+   height: 50px;
+   margin: 5px 0px 5px 10px;   
+}
+
+.item_name {
+   display: inline-block;
+   vertical-align: top;
+   width: 120px;
+   font-family: 'SUIT-Bold';
+   font-size : 16px;
+   color : #6cafd9;
+   margin-top : 5px;
+   height: 50px;
+   line-height: 50px;  
+   margin-left: 10px; 
+}
+
+.item_price {
+   display: inline-block;
+   vertical-align: top;
+   font-family: 'SUIT-SemiBold';
+   width: 80px;
+   margin: 12px 8px 4px 0px;
+   text-align: center;
+}
+
+.price_num {
+   display: inline-block;
+   vertical-align: top;
+   font-size: 14px;
+   height: 23px;
+   width: 80px;
+}
+
+
+.price_updown{
+   display: inline-block;
+   vertical-align: top;
+   font-size: 12px;
+   height: 23x;
+   width: 97px;
+   color: red;
+}
+
+.item_note {
+   display: inline-block;
+   vertical-align: top;
+	width: 195px;
+	height: 60px;
+	line-height: 20px;
+	font-size: 12px;
+	font-family: 'SUIT-Light';
+	color: #000;
+	margin: 10px;
+}
+
+input:focus{
+   outline : 0;
+}
+
+.add_btn {
+   display: inline-block;
+   vertical-align: bottom;
+   margin-top: 20px;
+   width: 48px;
+   height: 29px;
+	line-height: 29px;
+    font-family: 'SUIT-SemiBold';
+    font-size: 14px;
+   text-align: center;
+   background-color: #8fc4df;
+   box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 16%);
+   color : white;
+   border-radius : 8px;
+   cursor: pointer;
+}
+
+.add_btn:hover {
+	background-color: #82b4cd;
+}
+
+

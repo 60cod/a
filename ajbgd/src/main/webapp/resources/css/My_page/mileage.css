@@ -1,0 +1,446 @@
+@charset "UTF-8";
+
+/*2*/
+
+
+/**{font-family: 'SUIT-Medium','SUIT-Light';} 
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록 */
+
+table{
+   border-collapse: collapse;
+}
+
+td, tr {
+   font-family: 'SUIT-Light';
+   height: 50px;
+   width: 500px;
+   text-align: center;
+   font-weight: bolder;
+   border-bottom: 1px solid #D5F2F2;
+}
+
+
+thead {
+   font-size: 17px;
+   background-color: rgba(108, 175, 217, 0.3);
+}
+
+tbody {
+   font-size: 15px;
+   
+}
+
+
+.right {
+   display: inline-block;
+   vertical-align: top;
+   width: 1090px;
+   height: 800px;
+}
+
+.center {
+   display: block;
+   width: 1300px;
+   height: 100%;
+   margin: 0px auto;
+}
+
+
+/* 
+------------- 왼쪽 카테고리 -------------
+*/
+.category_wrap {
+   height: 100%;
+    width: 183px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.menu_name, .category1, .category2 {
+   display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    height: 41px;
+    border: 1px solid #A9A9A9;
+    line-height: 41px;
+    cursor: pointer;
+    margin-bottom: -1px;
+}
+
+.menu_name {
+   background-color: hsl(203deg 59% 92%);
+    font-family: 'SUIT-SemiBold';
+    font-size: 16px;
+    text-indent: 15px;
+}
+
+.category1, .category2 {
+    border-right: 1px solid #A9A9A9;
+    font-family: 'SUIT-Medium';
+    font-size: 15px;
+    text-indent: 20px;
+}
+
+.lower_category {
+   font-size: 14px;
+    width: 160px;
+    border: 1px solid #A9A9A9;
+    display: none;
+    overflow: hidden;
+    z-index: 9998;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin: 0 0 -1px 0;
+}
+
+.lower_category li {
+    font-family: 'SUIT-Light';
+   margin-top: 12px;   
+   cursor: pointer;
+}
+
+.menu_name:hover {
+   background-color: hsl(203deg 59% 88%);
+}
+
+.category1.on.category1, .category2.on.category2 {
+   background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.category1:hover, .category2:hover {
+   background-color: hsl(203deg 59% 97%);
+    font-family: 'SUIT-SemiBold';
+}
+
+.lower_category li:hover {
+   font-family: 'SUIT-Medium';
+}
+
+
+
+.right {
+   display: inline-block;
+   vertical-align: top;
+   width: 1090px;
+   height: 800px;
+}
+
+.center {
+   display: block;
+   width: 1300px;
+   min-height: calc(100% - 256px);
+   margin: 0px auto;
+}
+
+.box {
+   display: inline-block;
+   vertical-align: top;
+   height: 550px;
+   width: 1000px;
+   background-color: white;
+   border: 1px solid #d3d3d3;
+   margin: 0px 70px 20px 70px;
+}
+
+.box tr:last-child {
+   border-bottom: none;
+}
+
+.box_left {
+     display: inline-block;
+    vertical-align: top;
+    width: 292px;
+    height: 493px;
+    background-color: white;
+    border-right: 1px solid #d3d3d3;
+    padding: 57px 0px 0;
+}
+
+.left_top {
+   display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 177px;
+    font-size: 15px;
+}
+
+.left_bottom {
+   display: inline-block;
+    vertical-align: top;
+    width: 244px;
+    height: 177px;
+    font-family: 'SUIT-SemiBold';
+    font-size: 18px;
+    line-height: 34px;
+    margin-left: 48px;
+    color: #646464;
+}
+
+.left_bottom span {
+   font-size: 15px;
+    width: 100%;
+    font-family: 'SUIT-Medium';
+    margin-left: -3px;
+}
+
+.my_icon {
+   display: inline-block;
+    vertical-align: top;
+    width: 170px;
+    height: 170px;
+    margin: 0px 59px;
+    font-size: 14px;
+    font-family: 'SUIT-SemiBold';
+    line-height: 170px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+}
+
+.my_icon img {
+   width: 125px;
+    height: 120px;
+    display: inline-block;
+    vertical-align: middle;
+   transition: all ease 1s;
+    border-radius: 50px;
+}
+
+.my_icon img:hover {
+   transform : rotate(360deg);
+}
+
+.my_name {
+   display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 102px;
+    margin: 0px 5px;
+    font-size: 20px;
+    font-family: 'SUIT-SemiBold';
+    text-align: center;
+    margin: 12px 0;
+}
+
+.my_name span {
+   font-size: 14px;
+    margin-left: 5px;
+    display: inline-block;
+    color: #383838;
+    font-family: 'SUIT-Light';
+}
+
+.my_name input {
+   color: white;
+    background-color: var(--button-color);
+    border: none;
+    height: 36px;
+    font-size: 16px;
+    width: 121px;
+    border-radius: 5px;
+    font-family: 'SUIT-SemiBold';
+    margin: 15px 70px;
+    cursor: pointer;
+}
+
+.my_name input:hover {
+   background-color: var(--hover-color);
+}
+
+.box_right {
+   display: inline-block;
+   vertical-align: top;
+   width: 707px;
+   height: 550px;
+   background-color: white;
+   border: none;
+   font-size: 12px;
+   color: black;
+}
+
+
+.box_rightin {
+   display: inline-block;
+   vertical-align: top;
+   width: 575px;
+   height: 182px;
+   border: 1px solid #d3d3d3;
+}
+
+.box_rightinn {
+   display: inline-block;
+   vertical-align: top;
+   width: 380px;
+   height: 182px;
+}
+
+.box_rightinnn {
+   display: inline-block;
+   vertical-align: top;
+   width: 100px;
+   height: 180px;
+}
+
+.box_rightinti {
+   display: inline-block;
+   vertical-align: top;
+   width: 350px;
+   height: 40px;
+   font-family: 'SUIT-SemiBold';
+   font-size: 20px;
+   margin: 20px 0px 0px 20px;
+   color: #ff8800;
+}
+
+.box_rightinex {
+   display: inline-block;
+   vertical-align: top;
+   width: 350px;
+   height: 40px;
+   font-family: 'SUIT-SemiBold';
+   font-size: 14px;
+   margin-left: 20px;
+   color: #808080;
+}
+
+.box_rightinim {
+   display: inline-block;
+   vertical-align: top;
+   width: 150px;
+   height: 110px;
+   margin-top: 20px;
+}
+
+.box_rightinto {
+   display: inline-block;
+   vertical-align: top;
+   width: 350px;
+   height: 80px;
+   font-size: 14px;
+   margin: 15px 0px 0px 20px;
+   font-family: 'SUIT-medium';
+}
+
+.minus_icon {
+   background: url(../../images/calc.png) no-repeat 115% -7%/35px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.plus_icon {
+   background: url(../../images/calc.png) no-repeat -16% -7%/35px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main_title {
+   margin: 2px 0 60px;
+    width: 165px;
+    height: 60px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'SUIT-SemiBold';
+    border-bottom: 4px solid #6cafd9;
+    padding-left: 10px;
+    margin-left: 252px;
+}
+
+.main_title_logo {
+   display: inline-block;
+   vertical-align: top;
+   width: 100px;
+   height: 200px;
+   margin-right: 80px;
+}
+
+.title_icon {
+   display: inline-block;
+   vertical-align: top;
+   width: 30px;
+   height: 50px;
+   line-height: 50px;
+   margin-top: 2px;
+}
+
+.revise {
+   width: 70px;
+   height: 50px;
+   background-color: yellow;
+   text-align: center;
+   line-height: 50px;
+}
+
+
+.pagination {
+   height: 32px;
+   text-align: center;
+   margin: 10px 0px; 
+}
+.pagination a, .pagination strong {
+   overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    min-width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 2px;
+    line-height: 30px;
+    color: #666;
+    border-radius: 0;
+}
+.pagination strong {
+   position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    cursor: default;
+}
+.pagination a:hover {
+   font-family: 'SUIT-SemiBold';
+   text-decoration: underline;  
+}
+.pagination .control {
+   width: 30px;
+   height: 30px;
+   text-decoration: none;
+   border: 1px solid #ccc;
+   background: url(../../images/btn-pagination.png) no-repeat 0 0;
+   padding: 0px;
+}
+.pagination .active {
+    color: #2E78A6;
+    border: 1px solid #6cafd9;
+    font-family:'SUIT-SemiBold';
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+.pagination .control.first {
+    margin: 0;
+    background-position: 0 0;
+}
+.pagination .control.prev {
+    margin: 0 6px 0 0;
+    background-position: -30px 0;
+}
+.pagination .control.next {
+    margin: 0 0 0 6px;
+    background-position: -60px 0;
+}
+.pagination .control.last {
+    margin: 0;
+    background-position: -90px 0;
+}

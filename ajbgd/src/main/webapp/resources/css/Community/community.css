@@ -1,0 +1,735 @@
+@charset "UTF-8";
+
+/* 
+ background-color: #6cafd9;
+   #2E78A6 찐한파랑 
+   #6cafd9 하늘 
+   #D5F2E2 배경
+   #9BD991 연두
+   #70BF5A 초록
+   #ff8800 연한 주황
+   #ff6100ff 진한 주황 
+   
+   버튼 색
+   background-color: #8fc4df;
+   
+   버튼 호버 색
+   background-color: #82b4cd;
+   
+   버튼 박스쉐도우
+   box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 16%);
+*/
+
+
+/*
+	중앙
+*/
+
+.center {
+   width: 1100px;
+   margin: 0px auto 100px;
+   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
+   min-height: calc(100% - 376px);
+}
+
+/*
+	페이지 이름
+*/
+.main_title {
+	margin: 2px 0 60px 0;
+    width: 165px;
+    height: 60px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'SUIT-SemiBold';
+    border-bottom: 4px solid #6cafd9;
+    padding-left: 10px;
+}
+
+
+
+/*
+	상단 버튼
+*/
+.t_btn_wrap {
+	display: inline-block;
+    position: absolute;
+    top: -45px;
+    left: 1030px;
+}
+
+.write_btn {
+	font-family: 'SUIT-SemiBold';
+    font-size: 15px;
+    line-height: 33px;
+    width: 65px;
+    height: 33px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: var(--button-color);
+    cursor: pointer;
+    box-shadow: var(--btn-shadow);
+}
+
+.write_btn:hover, .ed_btn:hover {
+	background-color: var(--hover-color);
+}
+
+.ed_btn_wrap {
+   height : 34px;
+   width : 1100px;
+   position: absolute;
+   top: -46px;
+}
+
+.ed_btn {
+	font-family:'SUIT-SemiBold';
+	font-size : 16px;
+	line-height : 33px;
+	width : 60px;
+	text-align : center;
+	color : white;
+	border-radius : 5px;
+	background-color: #8fc4df;
+	margin-right: 5px;
+	cursor: pointer;
+	box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 16%);
+}
+
+/* 
+	글 목록 
+*/
+.list_box {
+	border-top: 2px solid #808080;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    position: relative;
+}
+
+.list_box span {
+	font-size: 13px;
+	color: #b3b3b3;
+	line-height: 39px;
+	margin-left: 5px;
+}
+
+.list_box table {
+    background-color: white;
+    width: 1100px;
+    height: 460px;
+    border-collapse: collapse;
+}
+
+.list_box td, .list_box th {
+    display: table-cell;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.list_box table thead th {
+    height: 45px;
+    font-family: 'SUIT-SemiBold';
+    font-size: 16px;
+    border-bottom: 1px solid hsl(210deg 4% 77%);
+}
+
+.list_box tbody td:nth-child(3) {
+	text-align: left !important;
+}
+
+.list_box tbody td:nth-child(2) {
+	color: #9c9c9c;
+}
+
+.list_box td {
+	text-indent: initial;
+    border-spacing: 2px;
+	height: 39px;
+	line-height: 39px;
+}
+
+.list_box tbody tr:nth-child(n+1) {
+	border-bottom: 1px solid #e6e7e8;
+}
+
+.list_box tbody tr:nth-child(10) {
+	border-bottom: 1px solid #808080;
+}
+
+.list_box a:hover {
+	font-family: 'SUIT-Medium';
+}
+
+.mini_img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+	margin: 0px 5px;
+	background: url("../../images/goowon1.png") 0/25px;
+}
+
+
+/*
+	말머리
+*/
+.post_select {
+	width: 140px;
+    height: 34px;
+    color: #000;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    font-family: 'SUIT-Light';
+    text-align: center;
+}
+
+
+/* 글 작성, 수정, 상세보기 */
+.wed_box {
+    border-top: 2px solid #808080;
+    margin: 30px auto 0;
+    position: relative;
+}
+
+.wed_box table {
+    background-color: white;
+	width: 1100px;
+    min-height: 460px;
+    /*border-bottom: 1px solid #bcbcbc;*/
+}
+
+.wed_box td, .wed_box th {
+    display: table-cell;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.wed_box td {
+	border-collapse: collapse;
+	text-indent: initial;
+    border-spacing: 2px;
+	height: 39px;
+	line-height: 39px;
+    border-bottom: 1px solid #e6e7e8;
+}
+
+.wed_box td:nth-child(4) {
+	border-bottom: none;
+}
+
+.wed_box td:nth-child(1) {
+    font-family: 'SUIT-SemiBold';
+    font-size: 16px;
+}
+
+.wed_box td:nth-child(2) {
+    text-align: left;
+}
+
+.wed_box span {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 15px;
+    font-family: 'SUIT-Medium';
+}
+
+.wed_box input, .wed_box textarea {
+    margin: 10px 0;
+    color: #000;
+    font-size: 15px;
+    background: #f5f5f5;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+}
+
+.wed_box input {
+	width: 400px;
+    height: 30px;
+    padding: 0 15px;
+}
+
+.wed_box textarea {
+	width: 700px;
+	height: 400px;
+	padding: 10px 15px;
+}
+
+.detail_line .mini_img {
+	margin: 0;
+}
+
+.detail_line td {
+    height: 27px !important;
+	padding: 0 5px !important;
+	line-height: 27px;
+}
+
+.detail_contents {
+	width: 700px;
+    line-height: 24px;
+    height: 95%;
+}
+
+/*
+	게시글 추천
+*/
+.sec3 {
+	font-family: 'SUIT-Medium';
+	text-align: center;
+	font-size: 17px;
+	color: #808080;
+	height: 130px;
+	padding-top: 28px;
+}
+
+/* .sec3 span {
+	margin-top: 30px;
+} */
+
+.like_count {
+	width: 95px;
+	height: 53px;
+	background-color: var(--button-color);
+	border-radius: 15px;
+	color: white;
+	font-size: 20px;
+	line-height: 70px;
+	margin: 5px auto 30px;
+	box-shadow: 2px 2px 5px 1px #afafaf;
+	position: relative;
+	cursor: pointer;
+}
+
+.like_count:hover {
+	background-color: var(--hover-color);
+}
+/* 
+.wed_box .sec3 {
+	background-color: white;
+	border-bottom: 1px solid #e6e7e8;
+} */
+
+
+/*
+	하단 버튼
+*/
+.b_btn_wrap {
+   height : 40px;
+   width : 1100px;
+   margin : 20px auto 0;
+   text-align: center;
+}
+
+.blank_btn, .blue_btn {
+	display: inline-block;
+	vertical-align: middle;
+	font-family:'SUIT-SemiBold';
+	font-size : 16px;
+	line-height : 33px;
+	text-align : center;
+	border-radius : 5px;
+	margin: 5px;
+	cursor: pointer;
+	box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 16%);
+}
+
+.blank_btn {
+	border: 1px solid #878787;	
+	/*background-color: #e3e3e3;*/
+	color: #878787;
+	width : 58px;
+	height: 31px;
+}
+
+.blue_btn {
+	background-color: var(--button-color);
+	color : white;
+	width : 60px;
+	height: 33px;
+}
+
+.blank_btn:hover {
+	border: 1px solid #ff8800;
+}
+
+.blue_btn:hover {
+	background-color: var(--hover-color);
+}
+
+
+/*
+	댓글
+*/
+.comments {
+	background-color: white;
+	margin-top: 20px;
+	padding: 30px 50px 0;
+	min-height: 320px;
+	border: 1px solid #cacaca;
+}
+
+.comments .sec_title {
+	margin-top: 0;
+}
+
+.comments .sec_title span {
+	color: #9c9c9c;
+	margin-left: 5px;
+}
+
+.reply_wrap {
+	margin-bottom: 20px;
+    width: 1000px;
+    height: 70px;
+    display: table;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 4px 1px #eee;
+    border-radius: 4px;
+}
+
+.reply_wrap textarea {
+	border: 1px solid #bdbdbd;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 870px;
+    height: 70px;
+    padding: 10px;
+    display: table-cell;
+    z-index: 2;
+    float: left;
+    font-family: 'SUIT-Light';
+}
+
+.c_btn_wrap {
+	vertical-align: middle;
+    display: table-cell;
+    width: 110px;
+    height: 89px;
+    text-align: center;
+}
+
+.c_btn_wrap:hover {
+	background-color: hsl(203deg 59% 97%);
+}
+
+.reply_btn {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: 'SUIT-Medium';
+    border: 1px solid #bdbdbd;
+    border-left-style: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 15px;
+}
+
+.one_comment {
+	padding: 10px;
+	border-bottom: 1px solid #cacaca;
+	min-height: 60px;
+}
+
+.comment_left {
+	width: 45px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.comment_left img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.comment_right {
+	display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 49px);
+    font-size: 13px;
+}
+
+.c_r_top {
+	text-align: left;
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 5px;	
+}
+
+.comment_writer {
+	font-family: 'SUIT-Medium';
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.c_r_top span {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	color: #cacaca;
+	margin-right: 5px;
+}
+
+.c_r_btn {
+	display: inline-block;
+    vertical-align: top;
+    width: 30px;
+    height: 18px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fefefe;
+    border: 1px solid #ababab;
+    font-family: 'SUIT-Light';
+    margin-left: 5px;
+    font-size: 12px;
+    color: #808080;
+    border-radius: 3px;
+    padding: 0;
+}
+
+.comments_page {
+	height: 70px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.comments_page a, .comments_page strong {
+	overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    min-width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 2px;
+    line-height: 30px;
+    color: #666;
+    border-radius: 0;
+}
+
+.comments_page strong {
+	position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.comments_page a:hover {
+	font-family: 'SUIT-SemiBold';
+	text-decoration: underline;  
+}
+
+.comments_page .control {
+	width: 30px;
+	height: 30px;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	background: url(../../images/btn-pagination.png) no-repeat 0 0;
+	padding: 0px;
+}
+
+.comments_page .active {
+    color: #2E78A6;
+    border: 1px solid #6cafd9;
+    font-family:'SUIT-SemiBold';
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.comments_page .control.first {
+    margin: 0;
+    background-position: 0 0;
+}
+
+.comments_page .control.prev {
+    margin: 0 6px 0 0;
+    background-position: -30px 0;
+}
+
+.comments_page .control.next {
+    margin: 0 0 0 6px;
+    background-position: -60px 0;
+}
+
+.comments_page .control.last {
+    margin: 0;
+    background-position: -90px 0;
+}
+
+
+
+/*
+	페이징
+*/
+.pagination {
+	text-align: center;
+	height: 32px;
+	margin: 30px 0 10px;
+}
+
+.comments_page {
+	height: 70px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.pagination a, .pagination strong, .comments_page a, .comments_page strong {
+	overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    min-width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0 2px;
+    line-height: 30px;
+    color: #666;
+    border-radius: 0;
+}
+
+.pagination strong, .comments_page strong {
+	position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.pagination a:hover, .comments_page a:hover {
+	font-family: 'SUIT-SemiBold';
+	text-decoration: underline;  
+}
+
+.pagination .control, .comments_page .control {
+	width: 30px;
+	height: 30px;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	background: url(../../images/btn-pagination.png) no-repeat 0 0;
+	padding: 0px;
+}
+
+.pagination .active, .comments_page .active {
+    color: #2E78A6;
+    border: 1px solid #6cafd9;
+    font-family:'SUIT-SemiBold';
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.pagination .control.first, .comments_page .control.first {
+    margin: 0;
+    background-position: 0 0;
+}
+
+.pagination .control.prev, .comments_page .control.prev {
+    margin: 0 6px 0 0;
+    background-position: -30px 0;
+}
+
+.pagination .control.next, .comments_page .control.next {
+    margin: 0 0 0 6px;
+    background-position: -60px 0;
+}
+
+.pagination .control.last, .comments_page .control.last {
+    margin: 0;
+    background-position: -90px 0;
+}
+
+
+
+
+/*
+	하단 검색
+*/
+.b_search {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	margin-top: 10px; 
+}
+
+/* .b_search input {
+	border-style: none;
+} */
+
+.search_select {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	height: 33px;
+	color: #000;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    font-family: 'SUIT-Light';
+    text-align: center;
+}
+
+.search_select.m {
+	width: 75px;
+}
+
+.search_wrap {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.search_input {
+	display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 29px;
+    background-color: white;
+    margin-left: 10px;
+    text-align: left;
+    color: #000;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search_input:focus {
+	outline: none;
+}
+
+.search_btn {
+    display: inline-block;
+    vertical-align: top;
+    height: 33px;
+    width: 70px;
+    background-color: var(--button-color);
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'SUIT-Medium' !important;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+}
+
+.search_btn:hover {
+	background-color: var(--hover-color);
+}
