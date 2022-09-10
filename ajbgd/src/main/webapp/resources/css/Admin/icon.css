@@ -102,7 +102,7 @@
     text-align: center;
     color: white;
     border-radius: 5px;
-    background-color: var(--button-color);
+    background-color: var(--btn-color);
     cursor: pointer;
     display: inline-block;
 	border: none;
@@ -110,7 +110,7 @@
 }
 
 .p_insert_btn:hover {
-	background-color: var(--hover-color);
+	background-color: var(--btn-hover);
 }
 
 .p_add_file {
@@ -144,9 +144,6 @@
 */
 .center {
    width: 1300px;
-   margin: 0px auto 100px;
-   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
-   min-height: calc(100% - 356px);
    position: relative;
    z-index: 100px;
 }
@@ -157,15 +154,12 @@
 ------------- 페이지 이름 -------------
 */
 .main_title {
-	margin: 2px 0 60px;
-    width: 165px;
-    height: 60px;
-    line-height: 78px;
-    font-size: 20px;
-    font-family: 'SUIT-SemiBold';
-    border-bottom: 4px solid #6cafd9;
-    padding-left: 10px;
-    margin-left: 222px;
+	margin: 0 0 60px 36px;
+}
+
+/* 카테고리 마진 */
+.cartegory_wrap {
+	margin-top: 124px;
 }
 
 
@@ -190,7 +184,7 @@
     text-align: center;
     color: white;
     border-radius: 5px;
-    background-color: var(--button-color);
+    background-color: var(--btn-color);
     cursor: pointer;
     display: inline-block;
     box-shadow: var(--btn-shadow);
@@ -214,12 +208,12 @@
     margin-left: 3px;
 	color: #585858;
     background-color: white;
-    border: 1px solid var(--button-color);
+    border: 1px solid var(--btn-color);
     font-family: 'SUIT-Medium';
 }
 
 .update_btn:hover, .stop_btn:hover, .insert_btn:hover {
-	background-color: var(--hover-color);
+	background-color: var(--btn-hover);
 }
 
 .stop_btn:hover {

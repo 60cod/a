@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>오늘의 장바구니</title>
+<title>오늘의 장바구니 | 내 손 안의 장바구디</title>
 <link href="resources/css/Cart/today.css" rel="stylesheet">
 <link href="resources/css/common/default.css" rel="stylesheet">
 

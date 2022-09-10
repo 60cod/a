@@ -27,145 +27,64 @@
 
 .center {
    width: 1300px;
-   margin: 0px auto 100px;
-   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
-   min-height: calc(100% - 408px);
 }
 
-
-
-.right {
-   display: inline-block;
-   vertical-align: top;
-   width : 1090px;
-}
 
 
 .box{
+	display: inline-block;
+	vertical-align: top;
      width: 1000px;
     background-color: white;
     border: 1px solid #e3e3e3;
-    margin: 0px 0px 10px 40px;
+    margin-left: 54px;
 }
 
-/* 
-------------- 왼쪽 카테고리 -------------
-*/
+
+
+/* 카테고리 */
 .category_wrap {
-	height: 100%;
-    width: 183px;
-    padding-top: 2px;
-    display: inline-block;
-}
-
-.menu_name, .category1, .category2 {
-	display: inline-block;
-    vertical-align: top;
-    width: 180px;
-    height: 41px;
-    border: 1px solid #A9A9A9;
-    line-height: 41px;
-    cursor: pointer;
-    margin-bottom: -1px;
-}
-
-.menu_name {
-	background-color: hsl(203deg 59% 92%);
-    font-family: 'SUIT-SemiBold';
-    font-size: 16px;
-    text-indent: 15px;
-}
-
-.category1, .category2 {
-    border-right: 1px solid #A9A9A9;
-    font-family: 'SUIT-Medium';
-    font-size: 15px;
-    text-indent: 20px;
-}
-
-.lower_category {
-	font-size: 14px;
-    width: 160px;
-    border: 1px solid #A9A9A9;
-    display: none;
-    overflow: hidden;
-    z-index: 9998;
-    background-color: white;
-    padding-top: 5px;
-    padding-bottom: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    margin: 0 0 -1px 0;
-}
-
-.lower_category li {
-    font-family: 'SUIT-Light';
-	margin-top: 12px;	
-	cursor: pointer;
-}
-
-.menu_name:hover {
-	background-color: hsl(203deg 59% 88%);
-}
-
-.category1.on.category1, .category2.on.category2 {
-	background-color: hsl(203deg 59% 97%);
-    font-family: 'SUIT-SemiBold';
-}
-
-.category1:hover, .category2:hover {
-	background-color: hsl(203deg 59% 97%);
-    font-family: 'SUIT-SemiBold';
-}
-
-.lower_category li:hover {
-	font-family: 'SUIT-Medium';
+	margin-top: 126px;
 }
 
 /*
 ------------- 페이지 이름 -------------
 */
 .main_title {
-	margin: 2px 0 60px;
-    width: 165px;
-    height: 60px;
-    line-height: 78px;
-    font-size: 20px;
-    font-family: 'SUIT-SemiBold';
-    border-bottom: 4px solid #6cafd9;
-    padding-left: 10px;
-    margin-left: 222px;
+	margin: 0 0 9px 54px;
 }
 
 .main_title_txt {
    display: inline-block;
-   vertical-align: top;
-   width : 1000px;
-   height : 20px;
-   font-family :'SUIT-Medium';
-   font-size : 12px;
-   line-height : 20px;
-   color : rgb(29, 28, 43)
+    vertical-align: top;
+    width: 1000px;
+    height: 20px;
+    font-family: 'SUIT-Medium';
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0 0 35px 54px;
 }
 
 
-.level_title{
-	margin-top : 30px;
-	display : inline-block;
-	vertical-align : top;
-	width : 950px;
-	height : 30px;
-	font-size : 17px;
-	font-family: 'SUIT-Bold';
-	line-height : 30px;
+.grade_title{
+	margin-top: 30px;
+    display: inline-block;
+    vertical-align: top;
+    width: 950px;
+    height: 30px;
+    font-size: 17px;
+    font-family: 'SUIT-SemiBold';
+    line-height: 30px;
+    padding-left: 50px;
+	color: #555;
 }
 
-.level_title a {
-	padding: 0px 10px 0 30px;
-	color: #707070;
+.grade_title span {
+	margin-left: 10px;
+	font-size: 10px;
 }
 
-.level_box{
+.grade_box{
 	text-align : center;
 	display : inline-block;
 	vertical-align: top;
@@ -174,7 +93,7 @@
 	margin-top: 15px;
 }
 
-.level {
+.grade {
 	display : inline-block;
 	vertical-align: top;
 	height : 80px; 
@@ -186,22 +105,22 @@
 	border : 1px solid lightgray;
 }
 
-.level:nth-child(1) {
+.grade:nth-child(1) {
 	color: #38761d;
 	background-color: #DCDCDC;
 }
-.level:nth-child(2) {
+.grade:nth-child(2) {
    color: #c27ba0;
    border : 1px solid #8fc4df;
 }
-.level:nth-child(3) {
+.grade:nth-child(3) {
    color: #674ea7;
 }
 
 .us_status {
 	display: inline-block;
     vertical-align: top;
-    width: 300px;
+    width: 337px;
     height: 274px;
     margin-top: 30px;
     border: 1px solid #bbb;
@@ -251,7 +170,7 @@
 	height: 40px;
 }
 
-.level_color {
+.grade_color {
 	display : inline-block;
 	vertical-align : top;
 	width: 25px;
@@ -282,13 +201,13 @@
 .total_mile{
    display: inline-block;
     vertical-align: top;
-    width: 126px;
+    width: 137px;
     height: 28px;
     background-color: white;
     line-height: 28px;
     border-radius: 5px;
     color: #ff6100ff;
-    margin: 3px 44px;
+    margin: 3px 24px;
 }
 
 .btn_wrap {
@@ -300,8 +219,8 @@
 .buy_btn{
    display: inline-block;
    vertical-align:top;
-   background-color: #8fc4df;
-   font-family:'SUIT-Bold';
+   background-color: var(--btn-color);
+   font-family:'SUIT-SemiBold';
    font-size : 16px;
    line-height : 34px;
    width : 80px;
@@ -313,6 +232,6 @@
 }
 
 .buy_btn:hover {
-	background-color: #82b4cd;
+	background-color: var(--btn-hover);
 }
 

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>장바구니 수정하기</title>
+<title>장바구니 수정하기 | 내 손 안의 장바구디</title>
 <link href="resources/css/Cart/update.css" rel="stylesheet">
 <link href="resources/css/common/default.css" rel="stylesheet">
 
@@ -28,6 +28,7 @@
       <div class="header_bottom">
          <div class="h_b_inner">
             <div class="logo fl">
+            	<span>내 손 안의</span>
             	장바구디
             </div>
             <div class="menu">가격비교</div>
@@ -39,8 +40,8 @@
       </div>
    </div>
 	<div class="center">
-   		<input type="text" class="main_title" value="집들이 파티" />
-         <div class="cart_date">2022-07-11</div>
+   		<input type="text" class="cart_title" value="집들이 파티" />
+         <div class="cart_date">날짜 : 2022-07-11</div>
          <div class="btn_wrap">
             <div class="ed_btn check">선택 삭제</div>
             <div class="ed_btn">취소</div>
@@ -80,14 +81,14 @@
                         	<img src="//cdn.ggumim.co.kr/storage/20201023122254Y5pFWFfFgU.png" width="25">
                      	</div>
                      	<div class="num">
-                     		2kg
+                     		2
                      	</div>
                      	<div class="plmi">
                         	<img src="//cdn.ggumim.co.kr/storage/202010231222542iuFV0Tu46.png" width="25">
                      	</div>
       				</td>
       				<td>50,000원</td>
-      				<td>국내산 생삼겹살</td>
+      				<td>국내산 생삼겹살 1kg</td>
       			</tr>
       			<tr>
       				<td>
@@ -100,14 +101,14 @@
                         	<img src="//cdn.ggumim.co.kr/storage/20201023122254Y5pFWFfFgU.png" width="25">
                      	</div>
                      	<div class="num">
-                     		2kg
+                     		2
                      	</div>
                      	<div class="plmi">
                         	<img src="//cdn.ggumim.co.kr/storage/202010231222542iuFV0Tu46.png" width="25">
                      	</div>
       				</td>
       				<td>50,000원</td>
-      				<td>국내산 생삼겹살</td>
+      				<td>국내산 생삼겹살 1kg</td>
       			</tr>
       			<tr>
       				<td>
@@ -120,14 +121,14 @@
                         	<img src="//cdn.ggumim.co.kr/storage/20201023122254Y5pFWFfFgU.png" width="25">
                      	</div>
                      	<div class="num">
-                     		2kg
+                     		2
                      	</div>
                      	<div class="plmi">
                         	<img src="//cdn.ggumim.co.kr/storage/202010231222542iuFV0Tu46.png" width="25">
                      	</div>
       				</td>
       				<td>50,000원</td>
-      				<td>국내산 생삼겹살</td>
+      				<td>국내산 생삼겹살 1kg</td>
       			</tr>
       			<tr>
       				<td>
@@ -140,14 +141,14 @@
                         	<img src="//cdn.ggumim.co.kr/storage/20201023122254Y5pFWFfFgU.png" width="25">
                      	</div>
                      	<div class="num">
-                     		2kg
+                     		2
                      	</div>
                      	<div class="plmi">
                         	<img src="//cdn.ggumim.co.kr/storage/202010231222542iuFV0Tu46.png" width="25">
                      	</div>
       				</td>
       				<td>50,000원</td>
-      				<td>국내산 생삼겹살</td>
+      				<td>국내산 생삼겹살 1kg</td>
       			</tr>
       			<tr>
       				<td>
@@ -160,14 +161,14 @@
                         	<img src="//cdn.ggumim.co.kr/storage/20201023122254Y5pFWFfFgU.png" width="25">
                      	</div>
                      	<div class="num">
-                     		2kg
+                     		2
                      	</div>
                      	<div class="plmi">
                         	<img src="//cdn.ggumim.co.kr/storage/202010231222542iuFV0Tu46.png" width="25">
                      	</div>
       				</td>
       				<td>50,000원</td>
-      				<td>국내산 생삼겹살</td>
+      				<td>국내산 생삼겹살 1kg</td>
       			</tr>
       			
       				

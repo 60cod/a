@@ -5,12 +5,11 @@ table{
 	width: 1000px;
 	margin: 0 auto;
 	text-align: center;
-	line-height: center;
 	color : black;
 }
 
 tr {
-	height: 35px;
+	height: 40px;
 }
 
 
@@ -20,8 +19,7 @@ tr {
 .center {
    width: 1300px;
    margin: 0px auto 100px;
-   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
-   min-height: calc(100% - 356px);
+   min-height: var(--center-mh);
 }
 
 
@@ -30,91 +28,12 @@ tr {
 ------------- 페이지 이름 -------------
 */
 .main_title {
-	margin: 2px 0 60px;
-    width: 165px;
-    height: 60px;
-    line-height: 78px;
-    font-size: 20px;
-    font-family: 'SUIT-SemiBold';
-    border-bottom: 4px solid #6cafd9;
-    padding-left: 10px;
-    margin-left: 222px;
+	margin: 0 0 60px 36px;
 }
 
-
-
-/* 
-------------- 왼쪽 카테고리 -------------
-*/
+/* 카테고리 마진 */
 .category_wrap {
-	height: 100%;
-    width: 183px;
-    padding-top: 2px;
-    display: inline-block;
-}
-
-.menu_name, .category1, .category2 {
-	display: inline-block;
-    vertical-align: top;
-    width: 180px;
-    height: 41px;
-    border: 1px solid #A9A9A9;
-    line-height: 41px;
-    cursor: pointer;
-    margin-bottom: -1px;
-}
-
-.menu_name {
-	background-color: hsl(203deg 59% 92%);
-    font-family: 'SUIT-SemiBold';
-    font-size: 16px;
-    text-indent: 15px;
-}
-
-.category1, .category2 {
-    border-right: 1px solid #A9A9A9;
-    font-family: 'SUIT-Medium';
-    font-size: 15px;
-    text-indent: 20px;
-}
-
-.lower_category {
-	font-size: 14px;
-    width: 160px;
-    border: 1px solid #A9A9A9;
-    display: none;
-    overflow: hidden;
-    z-index: 9998;
-    background-color: white;
-    padding-top: 5px;
-    padding-bottom: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    margin: 0 0 -1px 0;
-}
-
-.lower_category li {
-    font-family: 'SUIT-Light';
-	margin-top: 12px;	
-	cursor: pointer;
-}
-
-.menu_name:hover {
-	background-color: hsl(203deg 59% 88%);
-}
-
-.category1.on.category1, .category2.on.category2 {
-	background-color: hsl(203deg 59% 97%);
-    font-family: 'SUIT-SemiBold';
-}
-
-.category1:hover, .category2:hover {
-	background-color: hsl(203deg 59% 97%);
-    font-family: 'SUIT-SemiBold';
-}
-
-.lower_category li:hover {
-	font-family: 'SUIT-Medium';
+	margin-top: 122px;
 }
 
 
@@ -128,7 +47,7 @@ tr {
 	display: inline-block;
     position: absolute;
     top: -45px;
-    left: 960px;
+    left: 973px;
 }
 
 .write_btn {
@@ -140,12 +59,13 @@ tr {
     text-align: center;
     color: white;
     border-radius: 5px;
-    background-color: var(--button-hover);
+    background-color: var(--btn-color);
+    box-shadow: var(--btn-shadow);
     cursor: pointer;
 }
 
 .write_btn:hover, .ed_btn:hover {
-	background-color: var(--hover-color);
+	background-color: var(--btn-hover);
 }
 
 

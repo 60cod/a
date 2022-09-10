@@ -48,6 +48,7 @@ $(document).ready(function() {
       <div class="header_bottom">
          <div class="h_b_inner">
 			<div class="logo fl">
+				<span>내 손 안의</span>
            		장바구디
            	</div>
             <div class=" menu">가격비교</div>
@@ -132,8 +133,8 @@ $(document).ready(function() {
                </tbody>
             </table>
          </div>
-      <div class="revise">
-         <div class="revise_btn">수정하기</div>
+      <div class="b_btn">
+         <div class="update_btn">수정하기</div>
       </div>
       </div>
    </div>

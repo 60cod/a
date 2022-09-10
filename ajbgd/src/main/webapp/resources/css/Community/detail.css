@@ -43,26 +43,21 @@
 .writer_info {
 	width: 100%;
 	display: inline-block;
-	position: relative;
 }
 
-.writer_info .writer_icon {
-	content: "";
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
 
-.writer_icon img {
+.writer_info img {
 	width: 45px;
 	height: 45px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.writer_info .profile_area {
-    float: left;
+.profile_area {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
 }
 
 .writer_info .profile_info {

@@ -79,7 +79,8 @@ $(document).ready(function() {
 					<strong class="msg">
 						<img src="resources/images/cart5.png" alt="empty_list"
 							style="width: 70px; height: 70px;"><br/>
-					장바구니에 담긴 상품이 없습니다.</strong>
+					저장한 장바구니 목록이 없습니다.<br/>
+					상품을 담아 오늘의 장바구니를 저장해보세요!</strong>
 					<a class="btn_action">홈으로 가기</a>
 				</div>	
 			</div>

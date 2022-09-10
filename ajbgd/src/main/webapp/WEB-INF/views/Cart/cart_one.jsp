@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>장바구니 상세보기</title>
+<title>장바구니 상세보기 | 내 손 안의 장바구디</title>
 <link href="resources/css/Cart/cart_one.css" rel="stylesheet">
 <link href="resources/css/common/default.css" rel="stylesheet">
 
@@ -28,6 +28,7 @@
       <div class="header_bottom">
          <div class="h_b_inner">
             <div class="logo fl">
+            	<span>내 손 안의</span>
             	장바구디
             </div>
             <div class="menu">가격비교</div>
@@ -39,21 +40,24 @@
       </div>
    </div>
 	<div class="center">
-   		<div class="main_title">집들이 파티</div>
-         <div class="cart_date">2022-07-11</div>
-         <div class="btn_wrap">
-            <div class="ed_btn">수정</div>
-            <div class="ed_btn">삭제</div>
-          </div>
-		
+		 
+		<div class="list_back fr">
+			<img src="resources/images/arrow-up.png">
+			<span>목록으로 돌아가기</span>         
+		</div>
+      	<div class="title_wrap">
+      		<img src="resources/images/edit.png">
+	   		<span>집들이 파티</span>
+      	</div>
+		<div class="cart_date">날짜 : 2022-07-11</div>
 		<div class="box">
 		<table>
 			<colgroup>
-				<col width ="230px">
+				<col width ="250px">
+				<col width ="150px">
+				<col width ="120px">
+				<col width ="150px">
 				<col width ="*">
-				<col width ="100px">
-				<col width ="170px">
-				<col width ="300px">
 			</colgroup>
 	      	<thead>
 	      		<tr>
@@ -117,7 +121,9 @@
 			
 			</div>
 		
-			<div class="b_btn">
+			<div class="b_btn_wrap">
+				<div class="b_btn">수정</div>
+				<div class="b_btn">삭제</div>
 				<div class="img_btn">이미지로 저장하기</div>
 			</div>
       	</div>

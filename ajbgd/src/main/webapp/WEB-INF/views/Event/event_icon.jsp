@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>마일리지 장터 | 내 손 안의 장바구디</title>
-<link href="resources/css/Event/icon.css" rel="stylesheet">
+<link href="resources/css/Event/event_icon.css" rel="stylesheet">
 <link href="resources/css/common/default.css" rel="stylesheet">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -53,6 +53,7 @@ $(document).ready(function() {
       <div class="header_bottom">
          <div class="h_b_inner">
             <div class="logo fl">
+            	<span>내 손 안의</span>
             	장바구디
             </div>
             <div class="menu"><a href="http://localhost:8090/TestWeb/jbgd/Price_compare/price_compare.html">가격비교</a></div>
@@ -65,13 +66,7 @@ $(document).ready(function() {
    </div>
 
 	<div class="center">
-		<div class="main_title">
-			<span>마일리지 장터</span>
-			<div class="main_title_txt">마일리지로 아이콘을 구매하여 구원이로 아이디를 장식해보세요!</div>
-		</div>
-      	<div class="category_wrap fl">
-		
-
+		<div class="category_wrap fl">
 			<div class="menu_name">
 				<span>이벤트</span>
 			</div>
@@ -91,6 +86,13 @@ $(document).ready(function() {
 				<li>아이콘 구매</li>
 			</ul>
 		</div>
+		
+		<div class="main_title">
+			<span>마일리지 장터</span>
+		</div>
+		<div class="main_title_txt">마일리지로 아이콘을 구매하여 구원이로 아이디를 장식해보세요!</div>
+		
+		
       <div class="right">
          <div class="box">
          	<div class="level_title"><a>아이콘 구매하기</a></div>

@@ -27,6 +27,28 @@ $(document).ready(function(){
 		}, 800);
 	}); // quickmenu end
 	
+ 	// 마켓 상품창 여닫기
+    $(".close_mk").click(function(){
+	    $(this).toggleClass('on');
+	    if($(this).hasClass('on')) {
+			$(this).parent().siblings(".mk_content").slideUp(300);
+			$(this).css("transform", "rotate(0deg)");	    	
+	    } else {
+			$(this).parent().siblings(".mk_content").slideDown(300);
+			$(this).css("transform", "rotate(180deg)");	    	
+	    }
+    }); // 마켓 상품 여닫기 끝
+    
+    // 마켓 즐겨찾기
+    $(".mk_like").click(function(){
+    	$(this).toggleClass('on');
+    	if($(this).hasClass('on')) {
+    		$(this).css("background-image", "url(resources/images/bookmark2.png)")
+    	} else {
+    		$(this).css("background-image", "url(resources/images/bookmark.png)")
+    	}
+    }); // 마켓 즐겨찾기 끝
+	
 }); // document ready end
 
 // 검색 창
@@ -43,23 +65,6 @@ function searchToggle(obj, evt){
             container.find('.search_input').val('');
         }
 } // searchToggle end
-
-// 마켓 페이지 여닫기 수정중
-function marketToggle(obj, evt){
-    var container = $(obj).closest('.close_market');
-        if(!container.hasClass('active')){
-            container.addClass('active');
-            evt.preventDefault();
-        }
-        else if(container.hasClass('active') 
-        		&& $(obj).closest('.mk_content').length == 0){
-            container.removeClass('active');
-            // clear input
-            container.find('.mk_content').val('');
-        }
-} // searchToggle end
-
-
 
 </script>
 
@@ -82,6 +87,7 @@ function marketToggle(obj, evt){
 		<div class="header_bottom">
 			<div class="h_b_inner">
 				<div class="logo fl">
+					<span>내 손 안의</span>
             		장바구디
             	</div>
 				
@@ -153,9 +159,9 @@ function marketToggle(obj, evt){
       
       <div class="mk">
          <div class="mk_title">
-         	<div class="close_market" onclick="marketToggle(this, event);"></div>
+         	<div class="close_mk"></div>
             <div class="mk_name">홈플러스 금천점</div>
-            <div class="mk_like"></div>   
+            <div class="mk_like" title="상점 즐겨찾기"></div>   
          </div>         
                
          <div class="mk_content">

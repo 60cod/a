@@ -34,6 +34,7 @@
 		<div class="header_bottom">
 			<div class="h_b_inner">
 				<div class="logo fl">
+					<span>내 손 안의</span>
             		장바구디
             	</div>
 				<div class="menu">가격비교</div>
@@ -48,7 +49,7 @@
 	<!-- 이름, 아이디, 비밀번호, 비밀번호 확인, 이메일 주소, 전화번호, 성별, 생년월일 -->
 	<div class="center">
 			<div class="join_form">
-				<div class="web_name">내 손 안의 장바구디</div>
+				<div class="web_name">회원가입</div>
 				<div class="input_wrap">
 					<div class="user_box">
 						이름 <br /> <input type="text" class="input_box" id="name" maxlength="20" />

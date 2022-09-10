@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>커뮤니티 글 상세보기 | 내 손 안의 장바구디</title>
 <link href="resources/css/Community/community.css" rel="stylesheet">
 <link href="resources/css/Community/detail.css" rel="stylesheet">
 <link href="resources/css/common/default.css" rel="stylesheet">
@@ -28,6 +28,7 @@
 		<div class="header_bottom">
 			<div class="h_b_inner">
 				<div class="logo fl">
+					<span>내 손 안의</span>
             		장바구디
             	</div>
 				
@@ -54,9 +55,7 @@
 					</div>
 				</div>
 				<div class="writer_info">
-					<div class="writer_icon">
-						<img src="resources/images/goowon1.png" alt="goowon">
-					</div>
+					<img src="resources/images/goowon1.png" alt="goowon">
 					<div class="profile_area">
 						<div class="profile_info">Grace</div>
 						<div class="article_info">

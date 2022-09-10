@@ -49,6 +49,7 @@ $(document).ready(function() {
       <div class="header_bottom">
          <div class="h_b_inner">
             <div class="logo fl">
+            	<span>내 손 안의</span>
             	장바구디
             </div>
             <div class=" menu">가격비교</div>
@@ -60,44 +61,50 @@ $(document).ready(function() {
       </div>
    </div>
    <div class="center">
-      <div class="category_wrap fl">
       
          <div class="main_title">
             <div class="title_icon"></div>
             회원정보
          </div>
-         
+      <div class="category_wrap fl">
+      
+      <div class="menu_name">
+         <span>마이페이지</span>
+      </div>         
 
          <div class="category1">
-            <span>마이페이지</span>
+            <span>회원정보</span>
          </div>
          <ul class="lower_category">
-            <li>회원정보</li>
-            <li>아이콘 관리</li>
+            <li>회원정보 확인/수정</li>
             <li>내 게시글</li>
             <li>내 댓글</li>
-            <li>레시피 즐겨찾기</li>
+            <li>아이콘 관리</li>
             <li>마일리지</li>
+         </ul>
+         <div class="category2">
+            <span>즐겨찾기</span>
+         </div>
+         <ul class="lower_category">
+            <li>레시피 즐겨찾기</li>
             <li>내 즐겨찾기 상점</li>
          </ul>
       </div>
-      <div class="right">
-         <div class="box">
-            <div class="box_con">
-               <br>고객님의 안전한 정보보호를 위하여 비밀번호를 다시 한번 확인합니다.<br>
-               <br>비밀번호가 타인에게 노출되지 않도록주의하여 주세요.<br>
-               <br>
-               <br> 
-               <div class="input_wrap">
-               <input type="password" class="pw_input" placeholder="비밀번호를 입력하세요."><br>
-               </div>
-               <br>
-               <br> <span style="color: red; font-size: 13px; ">아이디 또는 비밀번호가 일치하지 않습니다.</span>
+      <div class="box">
+         <div class="box_con">
+            <br>고객님의 안전한 정보보호를 위하여 비밀번호를 다시 한번 확인합니다.<br>
+            <br>비밀번호가 타인에게 노출되지 않도록주의하여 주세요.<br>
+            <br>
+            <br> 
+            <div class="input_wrap">
+            <input type="password" class="pw_input" placeholder="비밀번호를 입력하세요."><br>
             </div>
-            <div class="box_btn">
-               <div class="btn1">확인</div>
-               <div class="btn2">취소</div>
-            </div>
+            <br>
+            <br> <span style="color: red; font-size: 13px; ">아이디 또는 비밀번호가 일치하지 않습니다.</span>
+         </div>
+         <div class="box_btn">
+            <div class="btn1">확인</div>
+            <div class="btn2">취소</div>
          </div>
       </div>
    </div>

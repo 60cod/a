@@ -52,6 +52,7 @@ $(document).ready(function() {
       <div class="header_bottom">
          <div class="h_b_inner">
             <div class="logo fl">
+            	<span>내 손 안의</span>
               장바구디
             </div>
             <div class="menu"><a href="http://localhost:8090/TestWeb/jbgd/Price_compare/price_compare.html">가격비교</a></div>
@@ -64,11 +65,7 @@ $(document).ready(function() {
    </div>
 
    <div class="center">
-   	  <div class="main_title">
-			<span>출석체크</span>
-			<div class="main_title_txt">출석체크하고 마일리지를 쌓아보세요!</div>
-		</div>
-     <div class="category_wrap fl">
+   	       <div class="category_wrap fl">
 		
 
 			<div class="menu_name">
@@ -91,6 +88,12 @@ $(document).ready(function() {
 			</ul>
 			
 		</div>
+		
+		<div class="main_title">
+			<span>출석체크</span>
+		</div>
+		<div class="main_title_txt">출석체크하고 마일리지를 쌓아보세요!</div>
+		
       <div class="right">
          <div class="box"></div>
          <div class="attend_box">

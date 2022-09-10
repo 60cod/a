@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>마일리지 장터 | 내 손 안의 장바구디</title>
-<link href="resources/css/Event/level.css" rel="stylesheet">
+<link href="resources/css/Event/event_grade.css" rel="stylesheet">
 <link href="resources/css/common/default.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript"
@@ -52,6 +52,7 @@ $(document).ready(function() {
       <div class="header_bottom">
          <div class="h_b_inner">
             <div class="logo fl">
+            	<span>내 손 안의</span>
                장바구디
             </div>
             <div class="menu"><a href="http://localhost:8090/TestWeb/jbgd/Price_compare/price_compare.html">가격비교</a></div>
@@ -64,10 +65,7 @@ $(document).ready(function() {
 </div>
 
 <div class="center">
-	<div class="main_title">
-		<span>마일리지 장터</span>
-		<div class="main_title_txt">마일리지로 등급을 구매하여 아이디에 색을 입혀보세요!</div>
-	</div>
+
 	<div class="category_wrap fl">
 		<div class="menu_name">
 			<span>이벤트</span>
@@ -89,16 +87,21 @@ $(document).ready(function() {
 		</ul>
 			
 	</div>
-	<div class="right">
+	
+		<div class="main_title">
+		<span>마일리지 장터</span>
+	</div>
+	<div class="main_title_txt">마일리지로 등급을 구매하여 아이디에 색을 입혀보세요!</div>
+	
 		<div class="box">
-			<div class="level_title">
-				<a>등급 구매하기</a>
-         		<a style="font-size:10px; padding : 0px;">※등급 구매 시 이전 등급으로 돌아갈 수 없으니 주의하세요</a>
+			<div class="grade_title">
+				등급 구매하기
+         		<span>※등급 구매 시 이전 등급으로 돌아갈 수 없으니 주의하세요.</span>
          	</div>
-         	<div class="level_box">
-         		<div class= "level">1단계 새싹 300 마일리지</div>
-         		<div class= "level">2단계 꽃 1000 마일리지</div>
-         		<div class= "level">3단계 열매 1500 마일리지</div>
+         	<div class="grade_box">
+         		<div class= "grade">1단계 새싹 300 마일리지</div>
+         		<div class= "grade">2단계 꽃 1000 마일리지</div>
+         		<div class= "grade">3단계 열매 1500 마일리지</div>
             </div>
             <div class = "us_status">
 				<div class="us_icon">
@@ -107,7 +110,7 @@ $(document).ready(function() {
 	           	<div class = "us_inner">
 					<div class="us_id">Grace</div>
 					<div class="us_info"> 현재 등급 : 새싹 
-						<br/> 현재 아이디색  : <div class = "level_color"></div>
+						<br/> 현재 아이디색  : <div class = "grade_color"></div>
 					</div>
 	           	</div>
 	           	<div class="mileage_box">
@@ -121,7 +124,6 @@ $(document).ready(function() {
             	<div class="buy_btn">구매하기</div>
             </div>
 		</div>
-	</div>
 </div>
 <div class="footer">
 	<div class="inner_footer">

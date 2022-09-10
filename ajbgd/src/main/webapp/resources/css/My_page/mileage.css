@@ -36,18 +36,8 @@ tbody {
 }
 
 
-.right {
-   display: inline-block;
-   vertical-align: top;
-   width: 1090px;
-   height: 800px;
-}
-
 .center {
-   display: block;
    width: 1300px;
-   height: 100%;
-   margin: 0px auto;
 }
 
 
@@ -55,100 +45,32 @@ tbody {
 ------------- 왼쪽 카테고리 -------------
 */
 .category_wrap {
-   height: 100%;
-    width: 183px;
-    padding-top: 2px;
-    display: inline-block;
-}
-
-.menu_name, .category1, .category2 {
-   display: inline-block;
-    vertical-align: top;
-    width: 180px;
-    height: 41px;
-    border: 1px solid #A9A9A9;
-    line-height: 41px;
-    cursor: pointer;
-    margin-bottom: -1px;
-}
-
-.menu_name {
-   background-color: hsl(203deg 59% 92%);
-    font-family: 'SUIT-SemiBold';
-    font-size: 16px;
-    text-indent: 15px;
-}
-
-.category1, .category2 {
-    border-right: 1px solid #A9A9A9;
-    font-family: 'SUIT-Medium';
-    font-size: 15px;
-    text-indent: 20px;
-}
-
-.lower_category {
-   font-size: 14px;
-    width: 160px;
-    border: 1px solid #A9A9A9;
-    display: none;
-    overflow: hidden;
-    z-index: 9998;
-    background-color: white;
-    padding-top: 5px;
-    padding-bottom: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    margin: 0 0 -1px 0;
-}
-
-.lower_category li {
-    font-family: 'SUIT-Light';
-   margin-top: 12px;   
-   cursor: pointer;
-}
-
-.menu_name:hover {
-   background-color: hsl(203deg 59% 88%);
-}
-
-.category1.on.category1, .category2.on.category2 {
-   background-color: hsl(203deg 59% 97%);
-    font-family: 'SUIT-SemiBold';
-}
-
-.category1:hover, .category2:hover {
-   background-color: hsl(203deg 59% 97%);
-    font-family: 'SUIT-SemiBold';
-}
-
-.lower_category li:hover {
-   font-family: 'SUIT-Medium';
+	margin-top: 124px;
 }
 
 
+.main_title {
+   margin: 0 0 60px 56px;
+}
 
-.right {
+.title_icon {
    display: inline-block;
    vertical-align: top;
-   width: 1090px;
-   height: 800px;
+   width: 30px;
+   height: 50px;
+   line-height: 50px;
+   margin-top: 2px;
 }
 
-.center {
-   display: block;
-   width: 1300px;
-   min-height: calc(100% - 256px);
-   margin: 0px auto;
-}
 
 .box {
    display: inline-block;
-   vertical-align: top;
-   height: 550px;
-   width: 1000px;
-   background-color: white;
-   border: 1px solid #d3d3d3;
-   margin: 0px 70px 20px 70px;
+    vertical-align: top;
+    height: 550px;
+    width: 1000px;
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    margin-left: 56px;
 }
 
 .box tr:last-child {
@@ -241,7 +163,7 @@ tbody {
 
 .my_name input {
    color: white;
-    background-color: var(--button-color);
+    background-color: var(--btn-color);
     border: none;
     height: 36px;
     font-size: 16px;
@@ -253,7 +175,7 @@ tbody {
 }
 
 .my_name input:hover {
-   background-color: var(--hover-color);
+   background-color: var(--btn-hover);
 }
 
 .box_right {
@@ -345,35 +267,6 @@ tbody {
     vertical-align: middle;
 }
 
-.main_title {
-   margin: 2px 0 60px;
-    width: 165px;
-    height: 60px;
-    line-height: 78px;
-    font-size: 20px;
-    font-family: 'SUIT-SemiBold';
-    border-bottom: 4px solid #6cafd9;
-    padding-left: 10px;
-    margin-left: 252px;
-}
-
-.main_title_logo {
-   display: inline-block;
-   vertical-align: top;
-   width: 100px;
-   height: 200px;
-   margin-right: 80px;
-}
-
-.title_icon {
-   display: inline-block;
-   vertical-align: top;
-   width: 30px;
-   height: 50px;
-   line-height: 50px;
-   margin-top: 2px;
-}
-
 .revise {
    width: 70px;
    height: 50px;
@@ -382,65 +275,3 @@ tbody {
    line-height: 50px;
 }
 
-
-.pagination {
-   height: 32px;
-   text-align: center;
-   margin: 10px 0px; 
-}
-.pagination a, .pagination strong {
-   overflow: hidden;
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-    min-width: 30px;
-    height: 30px;
-    margin: 0 2px;
-    padding: 0 2px;
-    line-height: 30px;
-    color: #666;
-    border-radius: 0;
-}
-.pagination strong {
-   position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0;
-    cursor: default;
-}
-.pagination a:hover {
-   font-family: 'SUIT-SemiBold';
-   text-decoration: underline;  
-}
-.pagination .control {
-   width: 30px;
-   height: 30px;
-   text-decoration: none;
-   border: 1px solid #ccc;
-   background: url(../../images/btn-pagination.png) no-repeat 0 0;
-   padding: 0px;
-}
-.pagination .active {
-    color: #2E78A6;
-    border: 1px solid #6cafd9;
-    font-family:'SUIT-SemiBold';
-    width: 30px;
-    height: 30px;
-    position: relative;
-}
-.pagination .control.first {
-    margin: 0;
-    background-position: 0 0;
-}
-.pagination .control.prev {
-    margin: 0 6px 0 0;
-    background-position: -30px 0;
-}
-.pagination .control.next {
-    margin: 0 0 0 6px;
-    background-position: -60px 0;
-}
-.pagination .control.last {
-    margin: 0;
-    background-position: -90px 0;
-}

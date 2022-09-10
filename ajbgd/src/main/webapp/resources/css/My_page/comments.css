@@ -24,20 +24,21 @@
 
 
 .center {
-	display: block;
     width: 1300px;
-    min-height: calc(100% - 256px);
-    margin: 0px auto 100px;
+}
+
+.category_wrap {
+	margin-top: 122px;
 }
 
 
 .box {
 	display: inline-block;
 	vertical-align: top;
-	width: 950px;
+	width: 980px;
 	background-color: white;
 	border-top: 1px solid black;
-	margin: 0px 70px 20px 70px;
+	margin-left: 60px;
 }
 
 .box span {
@@ -50,13 +51,12 @@
 .box td, .box th {
     display: table-cell;
     text-align: center;
-    margin-top: px;
     padding: 2.5px 10px;
 }
 
 .box table {
     background-color: white;
-	width: 950px;
+	width: 981px;
     height: 300px;
     border-bottom: 1px solid #bcbcbc;
 }
@@ -101,7 +101,7 @@ tbody td:nth-child(2) {
 	display: inline-block;
     position: absolute;
     top: -45px;
-    left: 960px;
+    left: 977px;
 }
 
 .write_btn {
@@ -113,38 +113,25 @@ tbody td:nth-child(2) {
     text-align: center;
     color: white;
     border-radius: 5px;
-    background-color: var(--button-color);
+    background-color: var(--btn-color);
     cursor: pointer;
     box-shadow: var(--btn-shadow);
 }
 
 .write_btn:hover {
-	background-color: var(--hover-color);
+	background-color: var(--btn-hover);
 }
 
-
-
-
-
 .main_title {
-	margin: 2px 0 60px;
-    width: 165px;
-    height: 60px;
-    line-height: 78px;
-    font-size: 20px;
-    font-family: 'SUIT-SemiBold';
-    border-bottom: 4px solid #6cafd9;
-    padding-left: 10px;
-    margin-left: 252px;
+	margin: 0 0 60px 60px;
 }
 
 .title_icon {
 	display: inline-block;
-	vertical-align: top;
-	width: 30px;
-	height: 50px;
-	line-height: 50px;
-	margin-top: 2px;
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    margin-top: 21px;
 }
 
 .thead {
@@ -244,75 +231,4 @@ tbody td:nth-child(2) {
 	height: 60px;
 	text-align: center;
 	line-height: 50px;
-}
-
-.pagination {
-   height: 32px;
-   text-align: center;
-   margin: 10px 0px; 
-}
-
-.pagination a, .pagination strong {
-	overflow: hidden;
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-    min-width: 30px;
-    height: 30px;
-    margin: 0 2px;
-    padding: 0 2px;
-    line-height: 30px;
-    color: #666;
-    border-radius: 0;
-}
-
-.pagination strong {
-	position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0;
-    cursor: default;
-}
-
-.pagination a:hover {
-	font-family: 'SUIT-SemiBold';
-	text-decoration: underline;  
-}
-
-.pagination .control {
-	width: 30px;
-	height: 30px;
-	text-decoration: none;
-	border: 1px solid #ccc;
-	background: url(img/btn-pagination.png) no-repeat 0 0;
-	padding: 0px;
-}
-
-.pagination .active {
-    color: #2E78A6;
-    border: 1px solid #6cafd9;
-    font-family:'SUIT-SemiBold';
-    width: 30px;
-    height: 30px;
-    position: relative;
-}
-
-.pagination .control.first {
-    margin: 0;
-    background-position: 0 0;
-}
-
-.pagination .control.prev {
-    margin: 0 6px 0 0;
-    background-position: -30px 0;
-}
-
-.pagination .control.next {
-    margin: 0 0 0 6px;
-    background-position: -60px 0;
-}
-
-.pagination .control.last {
-    margin: 0;
-    background-position: -90px 0;
 }

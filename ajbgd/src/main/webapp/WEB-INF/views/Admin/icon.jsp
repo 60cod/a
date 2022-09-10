@@ -71,6 +71,7 @@ $(document).ready(function() {
 		<div class="header_bottom">
 			<div class="h_b_inner">
 				<div class="logo fl">
+            		<span>내 손 안의</span>
             		장바구디
             	</div>
 				<div class="menu">가격비교</div>
@@ -174,11 +175,11 @@ $(document).ready(function() {
 					</thead>
 					<tbody>
 						<tr>
-							<td>슬픈구원이</td>
-							<td>슬픈구원이</td>
-							<td>슬픈구원이</td>
-							<td>슬픈구원이</td>
-							<td>슬픈구원이</td>
+							<td>슬픈 구원이</td>
+							<td>슬픈 구원이</td>
+							<td>슬픈 구원이</td>
+							<td>슬픈 구원이</td>
+							<td>슬픈 구원이</td>
 						</tr>
 						<tr>	
 							<td><img alt="goowon1" src="../../resources/images/goowon1.png"
@@ -228,11 +229,11 @@ $(document).ready(function() {
 							</td>
 						</tr>
 						<tr>
-							<td>슬픈구원이</td>
-							<td>슬픈구원이</td>
-							<td>슬픈구원이</td>
-							<td>슬픈구원이</td>
-							<td>슬픈구원이</td>
+							<td>슬픈 구원이</td>
+							<td>슬픈 구원이</td>
+							<td>슬픈 구원이</td>
+							<td>슬픈 구원이</td>
+							<td>슬픈 구원이</td>
 						</tr>
 						<tr>	
 							<td><img alt="goowon1" src="../../resources/images/goowon1.png"
@@ -303,13 +304,13 @@ $(document).ready(function() {
 			</div>
 			
 			<div class="b_search">
-				<select class="search_select">
+				<!-- <select class="search_select">
 					<option>아이디</option>
 					<option>이름</option>
-				</select>
+				</select> -->
 				<div class="search_wrap">
 					<input type="text" class="search_input" 
-						placeholder="검색어를 입력하세요." /><input type="button" 
+						placeholder="아이콘 이름을 입력하세요." /><input type="button" 
 							class="search_btn" value="검색" />
 				</div>
 			</div>

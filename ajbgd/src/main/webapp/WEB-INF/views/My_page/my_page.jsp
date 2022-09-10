@@ -12,8 +12,8 @@
       src="resources/script/jquery/jquery-1.12.4.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-	$(".category1").next(".lower_category").stop().slideToggle(300);
-	$(".category1").toggleClass('on').siblings().removeClass('on');
+	$(".category1").removeClass('on');
+	$(".category2").removeClass('on');
 	
 	$(".category1").click(function() {
 		$(this).next(".lower_category").stop().slideToggle(300);
@@ -48,6 +48,7 @@ $(document).ready(function() {
 		<div class="header_bottom">
 			<div class="h_b_inner">
 				<div class="logo fl">
+					<span>내 손 안의</span>
             		장바구디
             	</div>
 				<div class="menu">가격비교</div>
@@ -86,7 +87,6 @@ $(document).ready(function() {
          	</ul>
       </div>
 
-		<div class="right">
 			<div class="box_wrap">
 				<div class="box_left">
 					<div class="left_top">
@@ -141,7 +141,6 @@ $(document).ready(function() {
 			</div>
 			</div>
 			</div>
-		</div>
 	</div>
 	<div class="footer">
       <div class="inner_footer">

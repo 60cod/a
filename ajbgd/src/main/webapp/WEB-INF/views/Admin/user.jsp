@@ -53,6 +53,7 @@ $(document).ready(function() {
 		<div class="header_bottom">
 			<div class="h_b_inner">
 				<div class="logo fl">
+            		<span>내 손 안의</span>
             		장바구디
             	</div>
 				<div class="menu">가격비교</div>
@@ -124,7 +125,87 @@ $(document).ready(function() {
 					</thead>
 					<tbody>
 						<tr>
-							<td>1</td>
+							<td>10</td>
+							<td>GRACE</td>
+							<td>김정찬</td>
+							<td>열매</td>
+							<td>GRACE@naver.com</td>
+							<td>010-1234-5678</td>
+							<td>2022-01-01</td>
+							<td>100</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>GRACE</td>
+							<td>김정찬</td>
+							<td>열매</td>
+							<td>GRACE@naver.com</td>
+							<td>010-1234-5678</td>
+							<td>2022-01-01</td>
+							<td>100</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>GRACE</td>
+							<td>김정찬</td>
+							<td>열매</td>
+							<td>GRACE@naver.com</td>
+							<td>010-1234-5678</td>
+							<td>2022-01-01</td>
+							<td>100</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>GRACE</td>
+							<td>김정찬</td>
+							<td>열매</td>
+							<td>GRACE@naver.com</td>
+							<td>010-1234-5678</td>
+							<td>2022-01-01</td>
+							<td>100</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>GRACE</td>
+							<td>김정찬</td>
+							<td>열매</td>
+							<td>GRACE@naver.com</td>
+							<td>010-1234-5678</td>
+							<td>2022-01-01</td>
+							<td>100</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>GRACE</td>
+							<td>김정찬</td>
+							<td>열매</td>
+							<td>GRACE@naver.com</td>
+							<td>010-1234-5678</td>
+							<td>2022-01-01</td>
+							<td>100</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>GRACE</td>
+							<td>김정찬</td>
+							<td>열매</td>
+							<td>GRACE@naver.com</td>
+							<td>010-1234-5678</td>
+							<td>2022-01-01</td>
+							<td>100</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>GRACE</td>
+							<td>김정찬</td>
+							<td>열매</td>
+							<td>GRACE@naver.com</td>
+							<td>010-1234-5678</td>
+							<td>2022-01-01</td>
+							<td>100</td>
+						</tr>
+						<tr>
+							<td>2</td>
 							<td>GRACE</td>
 							<td>김정찬</td>
 							<td>열매</td>
@@ -135,31 +216,15 @@ $(document).ready(function() {
 						</tr>
 						<tr>
 							<td>1</td>
+							<td>GRACE</td>
+							<td>김정찬</td>
+							<td>열매</td>
+							<td>GRACE@naver.com</td>
+							<td>010-1234-5678</td>
+							<td>2022-01-01</td>
+							<td>100</td>
 						</tr>
-						<tr>
-							<td>1</td>
-						</tr>
-						<tr>
-							<td>1</td>
-						</tr>
-						<tr>
-							<td>1</td>
-						</tr>
-						<tr>
-							<td>1</td>
-						</tr>
-						<tr>
-							<td>1</td>
-						</tr>
-						<tr>
-							<td>1</td>
-						</tr>
-						<tr>
-							<td>1</td>
-						</tr>
-						<tr>
-							<td>1</td>
-						</tr>
+						
 					</tbody>
 				</table>
 			</div>

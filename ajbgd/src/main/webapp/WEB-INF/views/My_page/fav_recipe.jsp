@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>레시피 즐겨찾기 | 내 손 안의 장바구디</title>
 <link href="resources/css/My_page/fav_recipe.css" rel="stylesheet">
 <link href="resources/css/common/default.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -48,6 +48,7 @@ $(document).ready(function() {
 		<div class="header_bottom">
 			<div class="h_b_inner">
 				<div class="logo fl">
+					<span>내 손 안의</span>
             		장바구디
             	</div>
 				<div class="menu">가격비교</div>
@@ -206,7 +207,7 @@ $(document).ready(function() {
 				</tbody>
 			</table>
 		</div>
-		<div class="pagination" style="margin-top: 50px;">
+		<div class="pagination">
          <a class="control first"></a> 
          <a class="control prev"></a> 
          <a class="active"><strong>1</strong></a> 

@@ -48,6 +48,7 @@ $(document).ready(function() {
 		<div class="header_bottom">
 			<div class="h_b_inner">
 				<div class="logo fl">
+					<span>내 손 안의</span>
             		장바구디
             	</div>
 				<div class="menu">가격비교</div>
@@ -92,7 +93,7 @@ $(document).ready(function() {
 
 		<div class="right">
 			<div class="box">
-				<table style="margin-left: 20px;">
+				<table>
 					<tbody>
 						<tr>
 							<td style="height: 100px;width:100px; background-color: white; border: none;"><img src="resources/images/goowon.jpg" alt="logo"
@@ -152,14 +153,10 @@ $(document).ready(function() {
 
 				</table>
 			</div>
-						<div class="revise">
-							<input type="button" 
-								style="width: 80px; height: 45px; background-color: #6CAFD9; font-size: 18px; font-family: 'SUIT-light';
-								 color: white; border: none; border-radius: 5px;" 
-								value="수정하기"> <input type="button"
-								style="width: 80px; height: 45px; background-color: #6CAFD9; font-size: 18px; font-family: 'SUIT-light';
-								 color: white; border: none; border-radius: 5px; margin-right: 80px;"
-								value="탈퇴하기"></div>                                                                                                                                                                            
+			<div class="b_btn">
+				<input type="button" value="수정하기" class="update_btn" />
+				<input type="button" value="탈퇴하기" class="update_btn" />
+			</div>                                                                                                                                                                            
 		</div>
 	</div>
 <div class="footer">

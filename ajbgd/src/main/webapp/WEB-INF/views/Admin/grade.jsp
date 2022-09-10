@@ -53,6 +53,7 @@ $(document).ready(function() {
 		<div class="header_bottom">
 			<div class="h_b_inner">
 				<div class="logo fl">
+            		<span>내 손 안의</span>
             		장바구디
             	</div>
 				<div class="menu">가격비교</div>
@@ -228,21 +229,6 @@ $(document).ready(function() {
 							</td>
 						</tr>
 						
-						<tr>
-							<td>1</td>
-						</tr>
-						<tr>
-							<td>1</td>
-						</tr>
-						<tr>
-							<td>1</td>
-						</tr>
-						<tr>
-							<td>1</td>
-						</tr>
-						<tr>
-							<td>1</td>
-						</tr>
 					</tbody>
 				</table>
 			</div>
@@ -265,13 +251,13 @@ $(document).ready(function() {
 			</div>
 			
 			<div class="b_search">
-				<select class="search_select">
+				<!-- <select class="search_select">
 					<option>아이디</option>
 					<option>이름</option>
-				</select>
+				</select> -->
 				<div class="search_wrap">
 					<input type="text" class="search_input" 
-						placeholder="검색어를 입력하세요." /><input type="button"
+						placeholder="등급 이름을 입력하세요." /><input type="button"
 							class="search_btn" value="검색" />
 				</div>
 			</div>

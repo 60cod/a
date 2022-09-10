@@ -27,23 +27,15 @@
 
 .center {
    width: 1100px;
+   min-height: var(--center-mh);
    margin: 0px auto 100px;
-   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
-   min-height: calc(100% - 376px);
 }
 
 /*
 	페이지 이름
 */
 .main_title {
-	margin: 2px 0 60px 0;
-    width: 165px;
-    height: 60px;
-    line-height: 78px;
-    font-size: 20px;
-    font-family: 'SUIT-SemiBold';
-    border-bottom: 4px solid #6cafd9;
-    padding-left: 10px;
+	margin-bottom: 60px;
 }
 
 
@@ -67,13 +59,13 @@
     text-align: center;
     color: white;
     border-radius: 5px;
-    background-color: var(--button-color);
+    background-color: var(--btn-color);
     cursor: pointer;
     box-shadow: var(--btn-shadow);
 }
 
 .write_btn:hover, .ed_btn:hover {
-	background-color: var(--hover-color);
+	background-color: var(--btn-hover);
 }
 
 .ed_btn_wrap {
@@ -184,13 +176,14 @@
     border: 1px solid #ccc;
     font-family: 'SUIT-Light';
     text-align: center;
+    border-radius: 4px;
 }
 
 
 /* 글 작성, 수정, 상세보기 */
 .wed_box {
     border-top: 2px solid #808080;
-    margin: 30px auto 0;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -293,7 +286,7 @@
 .like_count {
 	width: 95px;
 	height: 53px;
-	background-color: var(--button-color);
+	background-color: var(--btn-color);
 	border-radius: 15px;
 	color: white;
 	font-size: 20px;
@@ -305,7 +298,7 @@
 }
 
 .like_count:hover {
-	background-color: var(--hover-color);
+	background-color: var(--btn-hover);
 }
 /* 
 .wed_box .sec3 {
@@ -346,7 +339,7 @@
 }
 
 .blue_btn {
-	background-color: var(--button-color);
+	background-color: var(--btn-color);
 	color : white;
 	width : 60px;
 	height: 33px;
@@ -357,7 +350,7 @@
 }
 
 .blue_btn:hover {
-	background-color: var(--hover-color);
+	background-color: var(--btn-hover);
 }
 
 
@@ -718,7 +711,7 @@
     vertical-align: top;
     height: 33px;
     width: 70px;
-    background-color: var(--button-color);
+    background-color: var(--btn-color);
     font-size: 15px;
     text-align: center;
     border: none;
@@ -731,5 +724,5 @@
 }
 
 .search_btn:hover {
-	background-color: var(--hover-color);
+	background-color: var(--btn-hover);
 }

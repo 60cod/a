@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>내 댓글 | 내 손 안의 장바구디</title>
 <link href="resources/css/My_page/comments.css" rel="stylesheet">
 <link href="resources/css/common/default.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -48,6 +48,7 @@ $(document).ready(function() {
 		<div class="header_bottom">
 			<div class="h_b_inner">
 				<div class="logo fl">
+					<span>내 손 안의</span>
             		장바구디
             	</div>
 				<div class="menu">가격비교</div>
@@ -60,8 +61,7 @@ $(document).ready(function() {
 	</div>
 	<div class="center">
 	<div class="main_title">
-				<div class="title_icon">
-				</div>
+				<img src="resources/images/my-posts.png" class="title_icon">
 				내 댓글
 			</div>
 			
@@ -98,9 +98,9 @@ $(document).ready(function() {
 				<table>
 				<colgroup>
 					<col width="70px" />
-					<col width="240px" />
-					<col width="240px" />
-					<col width="130px" />
+					<col width="*" />
+					<col width="350px" />
+					<col width="180px" />
 				</colgroup>
 				<thead>
 					<tr>

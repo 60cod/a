@@ -126,18 +126,7 @@
 */
 .center {
 	width: 1100px;
-   margin: 0px auto 100px;
-   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
-   min-height: calc(100% - 376px);
 } 
-/* 
-.center {
-   display: block;
-   width: 1100px;
-   height: 100%;
-   margin: 0px auto;
-} */
-
 
 
 /*
@@ -146,7 +135,7 @@
 .search_wrapper {
 	height: 65px;
     position: relative;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .search_wrapper.active {}
 
@@ -196,7 +185,7 @@
     height: 40px;
     border: none;
     border-radius: 6px;
-    background: #6cafd9;
+    background: var(--btn-color);
     outline: none;
     position: relative;
     z-index: 2;
@@ -207,7 +196,7 @@
 }
 
 .search_wrapper .input_holder .search_icon:hover {
-	background-color: #629fc5;
+	background-color: var(--btn-hover)
 }
 
 .search_wrapper.active .input_holder .search_icon {
@@ -270,7 +259,7 @@
 .search_wrapper .close::before, .search_wrapper .close::after {
     position: absolute;
     content: '';
-    background: #6cafd9;
+    background: var(--btn-color);
     border-radius: 2px
 }
 .search_wrapper .close::before {
@@ -354,7 +343,7 @@
     vertical-align: top;
     width: 1098px;
     height: 55px;
-    background-color: #d5efff;
+    background-color: var(--light-bc);
     font-family: 'SUIT-SemiBold';
     border-bottom: 1px solid #ccc;
     text-align: center;
@@ -362,7 +351,7 @@
     position: relative;
 }
 
-.close_market {
+.close_mk {
     background: url("../../images/arrow-up.png") no-repeat 0/20px;
     width: 20px;
     height: 20px;
@@ -373,48 +362,36 @@
 	transform: rotate(180deg);
 }
 
-.close_market.active {
-	transform: rotate(0deg);
-}
-
-/* 접히는 거 수정중 */
-.close_market.active .close_market+.mk_content {
-	display: none;
-}
-/**/
 	
 .mk_name {
-   font-family: 'SUIT-SemiBold';
+   font-family: 'hanna';
     display: inline-block;
     vertical-align: top;
     line-height: 55px;
     font-size: 20px;
-    color: #000;
     text-align: right;
     margin-right: 5px;
 }
 
 .mk_like {
-	font-family: 'SUIT-SemiBold';
     display: inline-block;
     vertical-align: top;
     cursor: pointer;
-    background: url(../../images/star-white.png) no-repeat 0/22px;
-    width: 22px;
-    height: 22px;
-    margin: 16px 2px;
-}
-
-.mk_like:hover {
-    background: url("../../images/star-line.png") no-repeat 0/22px;
+    background-image: url(../../images/bookmark.png);
+    background-size: 21px;
+    width: 21px;
+    height: 21px;
+    margin: 16px 0 0 4px;
+    opacity: .8;
 }
 
 .mk_content {
-    display: inline-block;
+	display: inline-block;
     vertical-align: top;
     width: 1060px;
     margin: 15px 20px;
 }
+
 
 .mk_item {
 	display: inline-block;

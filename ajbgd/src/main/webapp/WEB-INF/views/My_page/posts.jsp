@@ -49,6 +49,7 @@ $(document).ready(function() {
 		<div class="header_bottom">
 			<div class="h_b_inner">
 				<div class="logo fl">
+					<span>내 손 안의</span>
 					장바구디
 				</div>
 				<div class=" menu">가격비교</div>
@@ -61,27 +62,34 @@ $(document).ready(function() {
 	</div>
 	<div class="center">
 	<div class="main_title">
-				<div class="title_icon">
-				</div>
+				<img src="resources/images/my-posts.png" class="title_icon">
 				내 게시글
 			</div>
-	<div class="category_wrap fl">
-		<div class="category1">
+			
+		<div class="category_wrap fl">
+      
+		<div class="menu_name">
 			<span>마이페이지</span>
-		</div>
-		<ul class="lower_category">
-			<li>회원정보</li>
-			<li>아이콘 관리</li>
-			<li>내 게시글</li>
-			<li>내 댓글</li>
-			<li>내 마일리지</li>
-			<li>내 즐겨찾기 상점</li>
-			<li>레시피 즐겨찾기</li>
-		</ul>
-		
-		
-		
-	</div>
+		</div>         
+
+         <div class="category1">
+            <span>회원정보</span>
+         </div>
+         <ul class="lower_category">
+            <li>회원정보 확인/수정</li>
+            <li>내 게시글</li>
+            <li>내 댓글</li>
+            <li>아이콘 관리</li>
+            <li>마일리지</li>
+         </ul>
+         <div class="category2">
+            <span>즐겨찾기</span>
+         </div>
+         <ul class="lower_category">
+            <li>레시피 즐겨찾기</li>
+            <li>내 즐겨찾기 상점</li>
+         </ul>
+      </div>
 
 		<div class="right">
 				<div class="t_wrap">
@@ -93,7 +101,7 @@ $(document).ready(function() {
 					<col width="70px" />
 					<col width="150px" />
 					<col width="*" />
-					<col width="130px" />
+					<col width="160px" />
 					<col width="100px" />
 					<col width="100px" />
 				</colgroup>
@@ -238,6 +246,18 @@ $(document).ready(function() {
 			<a>10</a> 
 			<a class="control next"></a>
 			<a class="control last"></a>
+		</div>
+		<div class="b_search">
+			<select class="search_select">
+				<option>게시판 선택</option>
+				<option>커뮤니티</option>
+				<option>레시피</option>
+			</select>
+			<div class="search_wrap">
+				<input type="text" class="search_input" id="scText" name="sc" 
+					placeholder="글 제목을 입력하세요." /><input type="button" 
+				class="search_btn" id="scBtn" name="sc" value="검색" />
+			</div>
 		</div>
 		</div>
 	</div>
