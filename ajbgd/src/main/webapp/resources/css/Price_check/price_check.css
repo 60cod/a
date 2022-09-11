@@ -72,8 +72,6 @@ th {
 
 .center {
    width: 1100px;
-   margin: 0px auto;
-   min-height: calc(100% - 256px);
 }
 
 .logo {
@@ -166,27 +164,27 @@ th {
 }
 
 .main_title2 {
-   margin: 2px 0 47px 36px;
-    width: 165px;
+   margin: 0 0 47px 36px;
     height: 60px;
     line-height: 78px;
     font-size: 20px;
     font-family: 'SUIT-SemiBold';
-    border-bottom: 4px solid #6cafd9;
-    padding-left: 10px;
+    border-bottom: 4px solid var(--btn-color);
+    display: inline-block;
+    padding: 0 30px 0 10px;
 }
 
 
 .box1 {
    height: 440px;
     margin: 30px 35px 0px 35px;
-    padding-bottom: 120px;
+    padding-bottom: 30px;
 }
 
 .box_line {
 }
 
-.select {
+.select_box {
    display: inline-block;
     vertical-align: top;
     margin: 9px 10px 0px 0px;
@@ -198,6 +196,8 @@ th {
     color: #000;
     border: 1px solid #ccc;
     font-family: 'SUIT-Light';
+    border-radius: 2px;
+    
 }
 
 .box_line2 {
@@ -247,7 +247,7 @@ th {
 }
 
 .add_btn:hover {
-background-color : #86aec3; 
+background-color : var(--btn-hover);
 }
 
 .add_btn {
@@ -257,7 +257,8 @@ background-color : #86aec3;
    height: 30px;
    margin: 10px 20px 10px 10px;
    font-size : 14px;
-   background-color:#9fc8dd;
+   background-color: var(--btn-color);
+   box-shadow: var(--btn-shadow);
    line-height : 26px;
    border-radius : 4px;
    font-family: 'SUIT-SemiBold';

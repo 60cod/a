@@ -14,7 +14,7 @@
 			<div class="h_t_inner">
 				<div class="user">
 					<div class="user_icon">
-						<img src="resources/images/goowon.png" alt="goowon"
+						<img src="resources/images/goowon1.png" alt="goowon"
 							style="width: 35px; height: 30px;">
 					</div>
 					<div class="user_id">Grace님</div>
@@ -27,6 +27,7 @@
 		<div class="header_bottom">
 			<div class="h_b_inner">
 				<div class="logo fl">
+					<span>내 손 안의</span>
             		장바구디
             	</div>
 				

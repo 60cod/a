@@ -8,6 +8,24 @@
 <link href="resources/css/Recipe/detail.css" rel="stylesheet">
 <link href="resources/css/common/default.css" rel="stylesheet">
 
+<script type = "text/javascript"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    
+    // 레시피 즐겨찾기
+    $(".bookmark").click(function(){
+    	$(this).toggleClass('on');
+    	if($(this).hasClass('on')) {
+    		$(this).css("background-image", "url(resources/images/bookmark2.png)")
+    	} else {
+    		$(this).css("background-image", "url(resources/images/bookmark.png)")
+    	}
+    }); // 레시피 즐겨찾기 끝
+	
+}); // document ready end
+</script>
 </head>
 <body>
 	<div class="header">
@@ -15,7 +33,7 @@
 			<div class="h_t_inner">
 				<div class="user">
 					<div class="user_icon">
-						<img src="resources/images/goowon.png" alt="goowon"
+						<img src="resources/images/goowon1.png" alt="goowon"
 							style="width: 35px; height: 30px;">
 					</div>
 					<div class="user_id">Grace님</div>
@@ -28,6 +46,7 @@
 		<div class="header_bottom">
 			<div class="h_b_inner">
 				<div class="logo fl">
+					<span>내 손 안의</span>
 					장바구디
 				</div>
 				<div class="menu">가격비교</div>
@@ -60,8 +79,7 @@
 					<!-- 작성 날짜 -->
 					<span class="upload_date">2022. 08. 20</span>
 					<!-- 북마크 클릭하면 bookmark2 이미지로 변경, 데이터 전송 -->
-					<img src="resources/images/bookmark.png" style="width:35px; height:35px;"
-							id="bookmark" name="bookmark" class="bookmark" title="즐겨찾기">
+					<div class="bookmark" title="즐겨찾기"></div>
 					<h2 class="cook_title">계란 감자 샌드위치</h2>
 					<table class="cook_material">
 						<thead>

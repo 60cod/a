@@ -28,23 +28,13 @@
 
 .center {
    width: 1100px;
-   margin: 0px auto 100px;
-   /* 푸터 하단 고정: 100% 에서 헤더와 푸터 높이를 뺌 */
-   min-height: calc(100% - 376px);
 }
 
 /*
 	페이지 이름
 */
 .main_title {
-	margin: 2px 0 60px 0;
-    width: 165px;
-    height: 60px;
-    line-height: 78px;
-    font-size: 20px;
-    font-family: 'SUIT-SemiBold';
-    border-bottom: 4px solid #6cafd9;
-    padding-left: 10px;
+	margin-bottom: 60px;
 }
 
 
@@ -67,23 +57,14 @@
     text-align: center;
     color: white;
     border-radius: 5px;
-    background-color: #6cafd9;
+    background-color: var(--btn-color);
+    box-shadow: var(--btn-shadow);
     margin-right: 5px;
     cursor: pointer;
 }
 
 .ed_btn:hover {
-	background-color: #629fc5;
-}
-
-
-/*
-	가운데 내용물
-*/
-.center {
-	width: 1100px;
-	margin: 0 auto 100px;
-	min-height: calc(100% - 306px); /* 푸터 하단 고정 위해 */
+	background-color: var(--btn-hover);
 }
 
 .contents {
@@ -105,7 +86,6 @@
 
 .main_img {
 	float: left;
-    display: inline-block;
     width: 560px;
     height: 580px;
     position: relative;
@@ -173,6 +153,8 @@
     top: 0;
     left: calc(100% - 35px);
     cursor: pointer;
+    background-image: url("../../images/bookmark.png");
+    background-size: 35px;
 }
 
 .cook_title {
@@ -293,7 +275,7 @@
 .writer {
 	display: inline-block;
 	vertical-align: top;
-	border: 1px solid #6cafd975;
+	border: 1px solid var(--btn-color);
 	border-radius: 15px;
 	height: 70px;
 	width: 250px;
@@ -388,7 +370,7 @@
 .like_count {
 	width: 95px;
 	height: 53px;
-	background-color: #6cafd9;
+	background-color: var(--btn-color);
 	border-radius: 15px;
 	color: white;
 	font-size: 20px;
@@ -400,7 +382,7 @@
 }
 
 .like_count:hover {
-	background-color: #629fc5;
+	background-color: var(--btn-hover);
 }
 
 
@@ -635,6 +617,7 @@
 	border-radius : 5px;
 	margin: 5px;
 	cursor: pointer;
+	box-shadow: var(--btn-shadow);
 }
 
 .blank_btn {
@@ -646,7 +629,8 @@
 }
 
 .blue_btn {
-	background-color : #6cafd9;
+	background-color : var(--btn-color);
+	cursor: pointer;
 	color : white;
 	width : 62px;
 	height: 33px;
@@ -657,5 +641,5 @@
 }
 
 .blue_btn:hover {
-	background-color: #629fc5;
+	background-color: var(--btn-hover);
 }

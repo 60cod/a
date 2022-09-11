@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>가격 비교</title>
+<title>가격 비교 | 내 손 안의 장바구디</title>
 <link href="resources/css/Price_check/price_check.css" rel="stylesheet">
 <link href="resources/css/common/default.css" rel="stylesheet">
 
@@ -44,6 +44,7 @@ $(document).ready(function() {
       <div class="header_bottom">
          <div class="h_b_inner">
             <div class="logo fl">
+            	<span>내 손 안의</span>
                장바구디
             </div>
             <div class="menu">가격비교</div>
@@ -183,13 +184,13 @@ $(document).ready(function() {
    
    <div class = "box1">
       <div class = "box_line">
-         <select class="select">
+         <select class="select_box">
             <option>지역구 선택</option>
             <option>강서구</option>
             <option>서대문구</option>
             <option>종로구</option>
          </select>
-         <select class="select">
+         <select class="select_box">
          <option>정렬(상점명, 가격 높/낮은순)</option>
          <option>상점명</option>
          <option>가격 높은 순</option>
